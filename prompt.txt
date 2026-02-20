@@ -1,0 +1,264 @@
+You are a senior full-stack architect, UX director, and B2B brand strategist.
+
+Your objective is to build a production-grade corporate website for a China-based international B2B service company.
+
+You must iterate internally until the result passes strict commercial credibility standards.
+
+You are NOT generating a demo.
+You are generating a deployable business website.
+
+If the result appears generic, template-like, or AI-generated, you must reject and regenerate.
+
+==================================================
+COMPANY PROFILE
+==================================================
+
+Business scope:
+1) 3C electronics export
+2) Industrial computers & embedded systems supply
+3) China supplier sourcing service
+4) China visa & relocation consulting
+5) Recruitment / job agent services in China
+
+Target audience:
+- Overseas SMEs
+- Importers and distributors
+- Engineers and technical buyers
+- Foreign professionals relocating to China
+
+Brand personality:
+Operational competence
+Process clarity
+Risk awareness
+Engineering credibility
+
+Tone:
+Factual
+Reserved
+Professional
+No hype
+No storytelling marketing
+
+Company NAME: Pomerol International Trading (Zhuhai) Co., Ltd
+Contact: Nicole Fan  +86 13923387986 13923387986@163.com
+
+==================================================
+TECHNICAL REQUIREMENTS
+==================================================
+
+Stack:
+- Next.js (App Router) OR Vite + React
+- TailwindCSS
+- Component-based architecture
+- Clean folder structure
+- SEO structured content
+- Responsive
+- No UI kits
+- No templates
+- No lorem ipsum
+- Realistic copy only
+
+==================================================
+DESIGN SYSTEM (MANDATORY CONSTRAINTS)
+==================================================
+
+Visual target:
+WordPress-style industrial corporate site.
+
+STRICT PROHIBITIONS:
+- No gradients
+- No glassmorphism
+- No playful icons
+- No SaaS landing page layout
+- No marketing hero slogans
+- No illustration-heavy design
+
+Typography:
+- Hierarchical headings
+- Structured spacing
+- Max content width 1200px
+- Neutral typographic tone
+
+Color:
+- White / light gray base
+- Dark blue accent
+- Muted text colors
+- Conservative palette
+
+Layout:
+- Grid-based
+- Structured sections
+- Clean cards
+- Generous whitespace
+- Business-first presentation
+
+==================================================
+SITE STRUCTURE
+==================================================
+
+Pages required:
+
+1) Home
+2) Products
+   - 3C Export
+   - Industrial Computers
+3) Sourcing Service
+4) Visa & Relocation
+5) Recruitment Service
+6) About Us
+7) Contact
+
+Each page must include:
+- Structured information hierarchy
+- Process explanation
+- Capability presentation
+- Risk control signals
+- Clear service scope
+
+==================================================
+CONTENT REALISM REQUIREMENTS
+==================================================
+
+Content must demonstrate:
+- Export compliance awareness
+- Supplier verification methodology
+- Documentation workflow clarity
+- Operational boundaries
+- Service limitations
+- Realistic expectations
+
+Copy must NOT include:
+- Vision statements
+- Mission slogans
+- Generic branding language
+- Emotional persuasion
+- Startup-style messaging
+
+==================================================
+OUTPUT PACKAGE
+==================================================
+
+You must output:
+
+1) Full repository file tree
+2) All page code
+3) Reusable components
+4) Tailwind config
+5) Layout system
+6) SEO meta examples
+7) Deployment instructions
+8) Maintenance README
+
+==================================================
+COMMERCIAL QUALITY SCORING MODEL
+==================================================
+
+After generating the website, you must score the result using this model.
+
+Score each dimension from 0 to 20:
+
+1) Credibility of business presentation
+2) Structural clarity
+3) Professional visual restraint
+4) Content realism
+5) Trust perception for foreign clients
+
+Total score = sum of all dimensions (0-100)
+
+MANDATORY RULE:
+If total score < 85 → you must reject the output and redesign.
+
+When redesigning:
+- Reduce marketing tone
+- Increase operational specificity
+- Simplify layout
+- Improve structural clarity
+- Remove decorative elements
+
+Repeat scoring cycle until score ≥ 85.
+
+Do NOT output any result below 85.
+
+==================================================
+SIMULATED FOREIGN CLIENT REVIEW PANEL
+==================================================
+
+Before final approval, simulate review feedback from:
+
+A) European industrial importer
+Concerns:
+- Supplier reliability
+- Compliance awareness
+- Process transparency
+- Communication clarity
+
+B) US technical distributor
+Concerns:
+- Product capability clarity
+- Documentation rigor
+- Service boundaries
+- Risk disclosure
+
+C) Foreign professional relocating to China
+Concerns:
+- Procedural clarity
+- Practical expectations
+- Trustworthiness
+- Professional tone
+
+You must internally simulate their critiques.
+
+If any reviewer would hesitate to engage:
+→ redesign the relevant sections
+→ improve clarity and credibility
+→ re-run scoring model
+
+==================================================
+ANTI-TEMPLATE DETECTION
+==================================================
+
+You must reject your own work if:
+
+- It resembles a startup landing page
+- It resembles a SaaS product site
+- It contains generic AI copy patterns
+- It prioritizes style over structure
+- It lacks operational detail
+- It feels promotional rather than informational
+
+If detected → redesign.
+
+==================================================
+ITERATION PROTOCOL
+==================================================
+
+Generation cycle:
+
+1) Generate full website
+2) Run commercial scoring model
+3) Run foreign client simulation
+4) Identify weaknesses
+5) Refactor design and content
+6) Repeat until approval criteria met
+
+You must perform iteration internally.
+Do not output intermediate attempts.
+
+==================================================
+FINAL ACCEPTANCE STANDARD
+==================================================
+
+Output ONLY when:
+
+- Score ≥ 85
+- All simulated clients would trust the company
+- The website looks deployable
+- The design is restrained and credible
+- The content feels operational and real
+
+If uncertain:
+Choose clarity over creativity.
+Choose structure over style.
+Choose credibility over marketing.
+
+Begin now.

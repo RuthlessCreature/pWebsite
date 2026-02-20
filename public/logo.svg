@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="96" viewBox="0 0 480 96" role="img" aria-label="Pomerol International">
+  <rect width="480" height="96" fill="#ffffff" />
+  <rect x="8" y="8" width="80" height="80" fill="#1f3d5a" />
+  <path d="M29 25h24c12 0 20 7 20 18s-8 18-20 18H41v10H29V25Zm12 10v16h11c6 0 9-3 9-8s-3-8-9-8H41Z" fill="#ffffff" />
+  <text x="108" y="44" font-size="24" font-family="Arial, Helvetica, sans-serif" fill="#1e293b" font-weight="700">
+    Pomerol International
+  </text>
+  <text x="108" y="68" font-size="14" font-family="Arial, Helvetica, sans-serif" fill="#475569">
+    Trading (Zhuhai) Co., Ltd
+  </text>
+</svg>
