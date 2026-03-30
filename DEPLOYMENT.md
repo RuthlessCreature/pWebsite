@@ -94,6 +94,27 @@ This script will:
 4. stop the previous process
 5. start the latest version again
 
+### Add Nginx reverse proxy automatically
+
+If you also want the script to install Nginx when missing and map port `80` to the app port:
+
+```bash
+cd /var/www/pWebsite
+DOMAIN=staychina.org \
+WWW_DOMAIN=www.staychina.org \
+SETUP_NGINX=1 \
+./redeploy.sh
+```
+
+If you do not have a domain yet, you can still create a catch-all reverse proxy:
+
+```bash
+cd /var/www/pWebsite
+SETUP_NGINX=1 ./redeploy.sh
+```
+
+In that mode, Nginx will proxy incoming traffic on port `80` to the app running on port `3000`.
+
 ### If you already pulled manually
 
 ```bash
@@ -112,11 +133,23 @@ BRANCH=main PORT=3000 ./redeploy.sh
 
 - If `pm2` exists, `redeploy.sh` starts the app with `pm2`
 - If `pm2` does not exist, it falls back to `nohup`
+- If `SETUP_NGINX=1`, `redeploy.sh` installs Nginx when needed and writes a reverse proxy config
 
 ### Log files without PM2
 
 - PID file: `.runtime/pwebsite.pid`
 - Log file: `.runtime/pwebsite.log`
+
+### Environment Variables Supported by `redeploy.sh`
+
+- `APP_NAME` default: `pwebsite`
+- `BRANCH` default: `main`
+- `PORT` default: `3000`
+- `SKIP_PULL=1` to skip the internal `git pull`
+- `SETUP_NGINX=1` to install or configure Nginx
+- `DOMAIN` optional but recommended for Nginx `server_name`
+- `WWW_DOMAIN` optional
+- `NGINX_SITE_NAME` default: same as `APP_NAME`
 
 ### Recommended update flow
 

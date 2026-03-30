@@ -25,3 +25,4 @@
 - Rewrote `DEPLOYMENT.md` into a practical Ubuntu self-host guide with exact commands for `git clone` or `git pull`, `npm install`, `npm run build`, PM2 process management, Nginx reverse proxy setup, and HTTPS via Certbot
 - Added `deploy.sh` as a one-command Ubuntu deployment helper that can deploy from the current repo, or clone/pull a target repo path, then build, manage PM2, and optionally configure Nginx plus Certbot
 - Added `redeploy.sh` for the exact SSH workflow of entering the repo, pulling latest code, rebuilding, killing the previous process, and starting the new version again, while ignoring runtime PID and log files under `.runtime/`
+- Extended `redeploy.sh` so it can also install Nginx when missing and write a reverse proxy from port `80` to the app port, making the in-place SSH update flow work for both app restarts and reverse proxy refreshes

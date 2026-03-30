@@ -5,6 +5,10 @@ ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)"
 APP_NAME="${APP_NAME:-pwebsite}"
 BRANCH="${BRANCH:-main}"
 PORT="${PORT:-3000}"
+SETUP_NGINX="${SETUP_NGINX:-0}"
+DOMAIN="${DOMAIN:-}"
+WWW_DOMAIN="${WWW_DOMAIN:-}"
+NGINX_SITE_NAME="${NGINX_SITE_NAME:-$APP_NAME}"
 LOG_DIR="${LOG_DIR:-$ROOT_DIR/.runtime}"
 PID_FILE="${PID_FILE:-$LOG_DIR/${APP_NAME}.pid}"
 LOG_FILE="${LOG_FILE:-$LOG_DIR/${APP_NAME}.log}"
@@ -16,6 +20,14 @@ log() {
 
 has_command() {
   command -v "$1" >/dev/null 2>&1
+}
+
+run_root() {
+  if [[ "$(id -u)" -eq 0 ]]; then
+    "$@"
+  else
+    sudo "$@"
+  fi
 }
 
 kill_pid_if_running() {
@@ -109,10 +121,63 @@ start_with_nohup() {
   echo $! > "$PID_FILE"
 }
 
+configure_nginx() {
+  [[ "$SETUP_NGINX" == "1" ]] || return
+
+  if ! has_command nginx; then
+    log "Installing Nginx"
+    run_root apt update
+    run_root apt install -y nginx
+  fi
+
+  local server_names="_"
+  if [[ -n "$DOMAIN" && -n "$WWW_DOMAIN" ]]; then
+    server_names="$DOMAIN $WWW_DOMAIN"
+  elif [[ -n "$DOMAIN" ]]; then
+    server_names="$DOMAIN"
+  elif [[ -n "$WWW_DOMAIN" ]]; then
+    server_names="$WWW_DOMAIN"
+  fi
+
+  log "Writing Nginx reverse proxy config"
+  run_root tee "/etc/nginx/sites-available/${NGINX_SITE_NAME}" > /dev/null <<EOF
+server {
+    listen 80;
+    server_name ${server_names};
+
+    location / {
+        proxy_pass http://127.0.0.1:${PORT};
+        proxy_http_version 1.1;
+        proxy_set_header Host \$host;
+        proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto \$scheme;
+        proxy_set_header Upgrade \$http_upgrade;
+        proxy_set_header Connection "upgrade";
+    }
+}
+EOF
+
+  run_root ln -sf "/etc/nginx/sites-available/${NGINX_SITE_NAME}" "/etc/nginx/sites-enabled/${NGINX_SITE_NAME}"
+  run_root nginx -t
+  run_root systemctl enable nginx >/dev/null 2>&1 || true
+  run_root systemctl restart nginx
+}
+
 print_summary() {
   printf '\nDone.\n'
   printf 'App: %s\n' "$APP_NAME"
   printf 'Port: %s\n' "$PORT"
+  printf 'Nginx proxy: %s\n' "$SETUP_NGINX"
+
+  if [[ "$SETUP_NGINX" == "1" ]]; then
+    if [[ -n "$DOMAIN" ]]; then
+      printf 'Domain: %s\n' "$DOMAIN"
+    fi
+    if [[ -n "$WWW_DOMAIN" ]]; then
+      printf 'WWW domain: %s\n' "$WWW_DOMAIN"
+    fi
+    printf 'Nginx site: %s\n' "$NGINX_SITE_NAME"
+  fi
 
   if has_command pm2 && pm2 describe "$APP_NAME" >/dev/null 2>&1; then
     printf 'Mode: pm2\n'
@@ -134,5 +199,7 @@ stop_existing_process
 if ! start_with_pm2; then
   start_with_nohup
 fi
+
+configure_nginx
 
 print_summary

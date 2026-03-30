@@ -103,4 +103,4 @@ middleware.ts
 - Ongoing content/process maintenance: `MAINTENANCE.md`
 - SEO launch, checklist, and webmaster setup: `SEO_SOP.md`
 - One-command self-host script: `deploy.sh`
-- In-place pull and restart script: `redeploy.sh`
+- In-place pull and restart script: `redeploy.sh` with optional Nginx install and reverse proxy setup to app port `3000`
