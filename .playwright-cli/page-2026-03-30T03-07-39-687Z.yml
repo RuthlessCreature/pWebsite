@@ -1,0 +1,243 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - paragraph [ref=e7]: Pomerol International Trading (Zhuhai) Co., Ltd
+      - paragraph [ref=e8]:
+        - link "+86 13923387986" [ref=e9] [cursor=pointer]:
+          - /url: tel:+8613923387986
+        - text: "|"
+        - link "13923387986@163.com" [ref=e10] [cursor=pointer]:
+          - /url: mailto:13923387986@163.com
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - link "Pomerol International" [ref=e13] [cursor=pointer]:
+          - /url: /
+        - paragraph [ref=e14]: China sourcing, export execution, relocation and recruitment support from Zhuhai.
+      - generic [ref=e15]:
+        - navigation "Primary navigation" [ref=e16]:
+          - list [ref=e17]:
+            - listitem [ref=e18]:
+              - link "Home" [ref=e19] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e20]:
+              - link "Products" [ref=e21] [cursor=pointer]:
+                - /url: /products
+            - listitem [ref=e22]:
+              - link "Sourcing Service" [ref=e23] [cursor=pointer]:
+                - /url: /sourcing-service
+            - listitem [ref=e24]:
+              - link "Visa & Relocation" [ref=e25] [cursor=pointer]:
+                - /url: /visa-relocation
+            - listitem [ref=e26]:
+              - link "Recruitment Service" [ref=e27] [cursor=pointer]:
+                - /url: /recruitment-service
+            - listitem [ref=e28]:
+              - link "About Us" [ref=e29] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e30]:
+              - link "Contact" [ref=e31] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e32]:
+          - link "Email Brief" [ref=e33] [cursor=pointer]:
+            - /url: mailto:13923387986@163.com
+          - link "Start a Project Inquiry" [ref=e34] [cursor=pointer]:
+            - /url: /contact
+  - main [ref=e35]:
+    - generic [ref=e37]:
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - text: Zhuhai-based operating partner
+          - heading "China Sourcing, Export, and Operations Support" [level=1] [ref=e41]
+          - paragraph [ref=e42]: Pomerol International supports overseas teams with sourcing, export execution, relocation support, and recruitment coordination in China through defined scope, milestone control, and documented handover.
+          - generic [ref=e43]:
+            - link "Start an Inquiry" [ref=e44] [cursor=pointer]:
+              - /url: /contact
+            - link "View Services" [ref=e45] [cursor=pointer]:
+              - /url: /products
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - term [ref=e48]: Base
+            - definition [ref=e49]: Zhuhai, Guangdong, China
+          - generic [ref=e50]:
+            - term [ref=e51]: Clients
+            - definition [ref=e52]: SMEs, importers, distributors, technical teams
+          - generic [ref=e53]:
+            - term [ref=e54]: Model
+            - definition [ref=e55]: Scope-led execution with milestone reporting
+          - generic [ref=e56]:
+            - term [ref=e57]: Response
+            - definition [ref=e58]: Initial qualification reply within 1 business day
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - term [ref=e61]: Base
+          - definition [ref=e62]: Zhuhai, Guangdong, China
+        - generic [ref=e63]:
+          - term [ref=e64]: Clients
+          - definition [ref=e65]: SMEs, importers, distributors, technical teams
+        - generic [ref=e66]:
+          - term [ref=e67]: Model
+          - definition [ref=e68]: Scope-led execution with milestone reporting
+        - generic [ref=e69]:
+          - term [ref=e70]: Response
+          - definition [ref=e71]: Initial qualification reply within 1 business day
+    - generic [ref=e74]:
+      - generic [ref=e75]:
+        - text: Structured Delivery
+        - heading "Focused Service Tracks" [level=2] [ref=e76]
+        - paragraph [ref=e77]: The homepage is kept short by grouping the work into three clear entry points.
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - article [ref=e81]:
+            - text: Goods flow
+            - heading "Product Supply" [level=3] [ref=e82]
+            - paragraph [ref=e83]: 3C export and industrial computer programs for buyers who need supplier coordination, quality control, and export-ready documentation.
+            - generic [ref=e84]:
+              - link "3C electronics export" [ref=e85] [cursor=pointer]:
+                - /url: /products/3c-export
+              - link "Industrial computers" [ref=e86] [cursor=pointer]:
+                - /url: /products/industrial-computers
+          - article [ref=e87]:
+            - text: Execution flow
+            - heading "Supplier Sourcing" [level=3] [ref=e88]
+            - paragraph [ref=e89]: China-side supplier search, quote alignment, capability checks, and production follow-up for SME procurement teams.
+            - link "Sourcing service" [ref=e91] [cursor=pointer]:
+              - /url: /sourcing-service
+          - article [ref=e92]:
+            - text: People flow
+            - heading "Relocation & Hiring" [level=3] [ref=e93]
+            - paragraph [ref=e94]: Visa-relocation case support and recruitment coordination for companies bringing professionals into China.
+            - generic [ref=e95]:
+              - link "Visa & relocation" [ref=e96] [cursor=pointer]:
+                - /url: /visa-relocation
+              - link "Recruitment service" [ref=e97] [cursor=pointer]:
+                - /url: /recruitment-service
+        - complementary [ref=e98]:
+          - text: Best fit
+          - heading "One China-side partner, fewer moving parts." [level=3] [ref=e99]
+          - paragraph [ref=e100]: Use the site to choose a service line and send a short brief. The first response focuses on scope, feasibility, and next steps.
+          - list [ref=e101]:
+            - listitem [ref=e102]: Overseas SMEs and technical buyers
+            - listitem [ref=e103]: Import, sourcing, relocation, and hiring use cases
+            - listitem [ref=e104]: Practical operating support inside China
+          - generic [ref=e105]:
+            - link "Send a Brief" [ref=e106] [cursor=pointer]:
+              - /url: /contact
+            - link "About the Company" [ref=e107] [cursor=pointer]:
+              - /url: /about
+    - generic [ref=e110]:
+      - generic [ref=e111]:
+        - text: Structured Delivery
+        - heading "How Engagement Starts" [level=2] [ref=e112]
+        - paragraph [ref=e113]: "The operating model is simple: define the brief, test feasibility, execute against milestones."
+      - generic [ref=e115]:
+        - list [ref=e116]:
+          - listitem [ref=e117]:
+            - text: "1"
+            - generic [ref=e118]:
+              - paragraph [ref=e119]: Brief and scope
+              - paragraph [ref=e120]: "Owner: Account lead"
+            - paragraph [ref=e121]: We confirm service line, target market or city, timeline, and constraints before any commitment.
+          - listitem [ref=e122]:
+            - text: "2"
+            - generic [ref=e123]:
+              - paragraph [ref=e124]: Feasibility and risk check
+              - paragraph [ref=e125]: "Owner: Operations"
+            - paragraph [ref=e126]: We test supplier fit, document complexity, delivery assumptions, or case readiness before moving forward.
+          - listitem [ref=e127]:
+            - text: "3"
+            - generic [ref=e128]:
+              - paragraph [ref=e129]: Milestone execution
+              - paragraph [ref=e130]: "Owner: Project coordinator"
+            - paragraph [ref=e131]: Execution runs against a written plan with progress updates, exception handling, and final document handover.
+        - generic [ref=e132]:
+          - article [ref=e133]:
+            - heading "Clear scope first" [level=3] [ref=e134]
+            - paragraph [ref=e135]: The first response is meant to define what is in scope, not oversell what cannot be controlled.
+          - article [ref=e136]:
+            - heading "Milestone visibility" [level=3] [ref=e137]
+            - paragraph [ref=e138]: Buyers get a simple operating path for progress, decisions, and issue escalation.
+          - article [ref=e139]:
+            - heading "Documented closure" [level=3] [ref=e140]
+            - paragraph [ref=e141]: The job ends with files, notes, and open-item status, not vague verbal completion.
+    - generic [ref=e144]:
+      - generic [ref=e145]:
+        - text: Structured Delivery
+        - heading "Risk Control and Boundaries" [level=2] [ref=e146]
+        - paragraph [ref=e147]: We focus on the few issues that most often derail cross-border work.
+      - generic [ref=e148]:
+        - generic [ref=e149]:
+          - article [ref=e150]:
+            - text: Risk Signal
+            - heading "Supplier capability mismatch" [level=3] [ref=e151]
+            - paragraph [ref=e152]: "Signal: A factory looks acceptable on paper but cannot support the actual delivery baseline."
+            - paragraph [ref=e153]: "Control: We review capability, assumptions, and execution constraints before final alignment."
+          - article [ref=e154]:
+            - text: Risk Signal
+            - heading "Document gaps" [level=3] [ref=e155]
+            - paragraph [ref=e156]: "Signal: Invoice, packing, specification, or submission files do not match the real requirement."
+            - paragraph [ref=e157]: "Control: Critical documents are checked against the agreed baseline before shipment or submission."
+          - article [ref=e158]:
+            - text: Risk Signal
+            - heading "Timeline drift" [level=3] [ref=e159]
+            - paragraph [ref=e160]: "Signal: Approval loops, production changes, or missing inputs start pushing the original schedule."
+            - paragraph [ref=e161]: "Control: Milestone updates and early warning are used to surface issues before they become late surprises."
+        - generic [ref=e162]:
+          - generic [ref=e163]:
+            - text: Boundaries
+            - list [ref=e164]:
+              - listitem [ref=e165]: Scope is confirmed in writing before execution starts.
+              - listitem [ref=e166]: Government approvals, customs outcomes, and third-party certifications stay outside provider control.
+              - listitem [ref=e167]: Pricing and lead time depend on declared quantity, baseline, and commercial assumptions.
+          - generic [ref=e168]:
+            - text: Quick questions
+            - generic [ref=e169]:
+              - article [ref=e170]:
+                - heading "What is the fastest way to start?" [level=3] [ref=e171]
+                - paragraph [ref=e172]: Send service line, target market or city, timeline, and key constraints by email.
+              - article [ref=e173]:
+                - heading "Can you support both products and people-related cases?" [level=3] [ref=e174]
+                - paragraph [ref=e175]: Yes. The site covers product supply, sourcing, relocation support, and recruitment coordination.
+              - article [ref=e176]:
+                - heading "Do you guarantee regulatory or customs outcomes?" [level=3] [ref=e177]
+                - paragraph [ref=e178]: No. We support preparation and process control, but authority decisions remain outside our control.
+  - contentinfo [ref=e179]:
+    - generic [ref=e180]:
+      - generic [ref=e181]:
+        - text: Pomerol International
+        - heading "Operational clarity for cross-border work in China." [level=2] [ref=e182]
+        - paragraph [ref=e183]: Pomerol International Trading (Zhuhai) Co., Ltd supports overseas teams with sourcing execution, export handling, relocation coordination, and recruitment process management through written scope and milestone control.
+      - generic [ref=e184]:
+        - heading "Contact" [level=2] [ref=e185]
+        - paragraph [ref=e186]:
+          - link "+86 13923387986" [ref=e187] [cursor=pointer]:
+            - /url: tel:+8613923387986
+        - paragraph [ref=e188]:
+          - link "13923387986@163.com" [ref=e189] [cursor=pointer]:
+            - /url: mailto:13923387986@163.com
+        - paragraph [ref=e190]: Zhuhai, Guangdong, China
+        - paragraph [ref=e191]: "Typical first response target: 1 business day."
+      - generic [ref=e192]:
+        - heading "Pages" [level=2] [ref=e193]
+        - list [ref=e194]:
+          - listitem [ref=e195]:
+            - link "Home" [ref=e196] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e197]:
+            - link "Products" [ref=e198] [cursor=pointer]:
+              - /url: /products
+          - listitem [ref=e199]:
+            - link "Sourcing Service" [ref=e200] [cursor=pointer]:
+              - /url: /sourcing-service
+          - listitem [ref=e201]:
+            - link "Visa & Relocation" [ref=e202] [cursor=pointer]:
+              - /url: /visa-relocation
+          - listitem [ref=e203]:
+            - link "Recruitment Service" [ref=e204] [cursor=pointer]:
+              - /url: /recruitment-service
+          - listitem [ref=e205]:
+            - link "About Us" [ref=e206] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e207]:
+            - link "Contact" [ref=e208] [cursor=pointer]:
+              - /url: /contact
+    - paragraph [ref=e210]: All service commitments are executed against written scope, milestone control, and final contract terms.

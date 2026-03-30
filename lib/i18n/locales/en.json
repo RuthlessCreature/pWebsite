@@ -1,0 +1,1249 @@
+{
+  "locale": "en",
+  "navItems": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Products",
+      "href": "/products"
+    },
+    {
+      "label": "Sourcing",
+      "href": "/sourcing-service"
+    },
+    {
+      "label": "Visa & Relocation",
+      "href": "/visa-relocation"
+    },
+    {
+      "label": "Recruitment",
+      "href": "/recruitment-service"
+    },
+    {
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "header": {
+    "strapline": "China-side sourcing, export, relocation, and hiring support from Zhuhai.",
+    "languageLabel": "Language",
+    "secondaryActionLabel": "Email Brief",
+    "primaryActionLabel": "Start Inquiry"
+  },
+  "footer": {
+    "badge": "Pomerol International",
+    "title": "Clear execution for cross-border work in China.",
+    "description": "Pomerol International Trading (Zhuhai) Co., Ltd helps overseas teams run sourcing, export, relocation, and recruitment work with tighter scope and clearer milestones.",
+    "contactTitle": "Contact",
+    "pagesTitle": "Pages",
+    "responseTarget": "Typical first reply target: within 1 business day.",
+    "legalNote": "All work is delivered against written scope, milestone control, and final contract terms."
+  },
+  "common": {
+    "ownerLabel": "Owner",
+    "riskBadge": "Risk Signal",
+    "signalLabel": "Signal",
+    "controlLabel": "Control",
+    "openDetailsLabel": "Open service details"
+  },
+  "pages": {
+    "home": {
+      "metadata": {
+        "title": "China Sourcing, Export, and Operations Support",
+        "description": "Pomerol International helps overseas teams with China sourcing, export execution, relocation support, and recruitment coordination."
+      },
+      "hero": {
+        "eyebrow": "Zhuhai-based operating partner",
+        "title": "China Sourcing, Export, and Operations Support",
+        "description": "A concise China-side operating partner for sourcing, export execution, relocation support, and hiring coordination.",
+        "primaryAction": {
+          "label": "Start Inquiry",
+          "href": "/contact"
+        },
+        "secondaryAction": {
+          "label": "View Services",
+          "href": "/products"
+        },
+        "facts": [
+          {
+            "label": "Base",
+            "value": "Zhuhai, Guangdong, China"
+          },
+          {
+            "label": "Clients",
+            "value": "SMEs, importers, distributors, technical teams"
+          },
+          {
+            "label": "Model",
+            "value": "Scoped execution with milestone reporting"
+          },
+          {
+            "label": "Response",
+            "value": "Initial reply within 1 business day"
+          }
+        ]
+      },
+      "serviceSection": {
+        "badge": "Focused Tracks",
+        "title": "Three clear ways to start",
+        "summary": "The homepage stays short by grouping the work into product, sourcing, and people-related tracks."
+      },
+      "serviceGroups": [
+        {
+          "title": "Product Supply",
+          "summary": "3C export and industrial hardware programs with supplier coordination, QC, and export file control.",
+          "accent": "Goods flow",
+          "links": [
+            {
+              "label": "3C electronics export",
+              "href": "/products/3c-export"
+            },
+            {
+              "label": "Industrial computers",
+              "href": "/products/industrial-computers"
+            }
+          ]
+        },
+        {
+          "title": "Supplier Sourcing",
+          "summary": "China-side supplier search, quote alignment, and pilot-order follow-up for procurement teams.",
+          "accent": "Execution flow",
+          "links": [
+            {
+              "label": "Sourcing service",
+              "href": "/sourcing-service"
+            }
+          ]
+        },
+        {
+          "title": "Relocation & Hiring",
+          "summary": "Visa-relocation case support and recruitment coordination for companies operating in China.",
+          "accent": "People flow",
+          "links": [
+            {
+              "label": "Visa & relocation",
+              "href": "/visa-relocation"
+            },
+            {
+              "label": "Recruitment service",
+              "href": "/recruitment-service"
+            }
+          ]
+        }
+      ],
+      "bestFit": {
+        "badge": "Best fit",
+        "title": "One China-side partner, fewer moving parts.",
+        "description": "Send a short brief. The first reply focuses on scope, feasibility, and the next step.",
+        "bullets": [
+          "Overseas SMEs and technical buyers",
+          "Import, sourcing, relocation, and hiring use cases",
+          "Practical execution support inside China"
+        ],
+        "primaryAction": {
+          "label": "Send a Brief",
+          "href": "/contact"
+        },
+        "secondaryAction": {
+          "label": "About the Company",
+          "href": "/about"
+        }
+      },
+      "processSection": {
+        "badge": "Operating Model",
+        "title": "How engagement starts",
+        "summary": "Define the brief, test feasibility, then execute against milestones."
+      },
+      "processSteps": [
+        {
+          "title": "Brief and scope",
+          "detail": "We confirm the service line, target market or city, timeline, and constraints before any commitment.",
+          "owner": "Account lead"
+        },
+        {
+          "title": "Feasibility and risk check",
+          "detail": "We test supplier fit, document complexity, delivery assumptions, or case readiness before moving forward.",
+          "owner": "Operations"
+        },
+        {
+          "title": "Milestone execution",
+          "detail": "Execution follows a written plan with progress updates, issue handling, and final handover.",
+          "owner": "Project coordinator"
+        }
+      ],
+      "operatingPrinciples": [
+        {
+          "title": "Clear scope first",
+          "summary": "The first response defines what is in scope instead of overselling uncertain outcomes."
+        },
+        {
+          "title": "Milestone visibility",
+          "summary": "Clients get a simple path for progress updates, decisions, and escalation."
+        },
+        {
+          "title": "Documented closure",
+          "summary": "Every project closes with files, notes, and open-item status."
+        }
+      ],
+      "riskSection": {
+        "badge": "Risk Control",
+        "title": "Risk control and boundaries",
+        "summary": "We focus on the issues that most often derail cross-border work."
+      },
+      "riskItems": [
+        {
+          "title": "Supplier capability mismatch",
+          "signal": "A factory looks acceptable on paper but cannot support the real delivery baseline.",
+          "control": "Capability, assumptions, and constraints are checked before final alignment."
+        },
+        {
+          "title": "Document gaps",
+          "signal": "Invoice, packing, specification, or submission files do not match the actual requirement.",
+          "control": "Critical files are checked against the agreed baseline before shipment or submission."
+        },
+        {
+          "title": "Timeline drift",
+          "signal": "Approval loops, production changes, or missing inputs start pushing the original schedule.",
+          "control": "Milestone updates and early warning surface issues before they become late surprises."
+        }
+      ],
+      "boundariesBadge": "Boundaries",
+      "boundaryPoints": [
+        "Scope is confirmed in writing before execution starts.",
+        "Government approvals, customs outcomes, and third-party certifications stay outside provider control.",
+        "Pricing and lead time depend on declared quantity, baseline, and commercial assumptions."
+      ],
+      "faqBadge": "Quick questions",
+      "faq": [
+        {
+          "question": "What is the fastest way to start?",
+          "answer": "Send the service line, target market or city, timeline, and key constraints by email."
+        },
+        {
+          "question": "Can you support both products and people-related cases?",
+          "answer": "Yes. The site covers product supply, sourcing, relocation support, and recruitment coordination."
+        },
+        {
+          "question": "Do you guarantee regulatory or customs outcomes?",
+          "answer": "No. We support preparation and process control, but authority decisions remain outside our control."
+        }
+      ]
+    },
+    "about": {
+      "metadata": {
+        "title": "About Pomerol International",
+        "description": "Company profile, operating model, and execution controls of Pomerol International Trading (Zhuhai) Co., Ltd."
+      },
+      "hero": {
+        "eyebrow": "Company profile",
+        "title": "About Pomerol International",
+        "description": "A Zhuhai-based service company supporting overseas clients in product supply, sourcing, relocation process guidance, and recruitment coordination in China.",
+        "facts": [
+          {
+            "label": "Entity",
+            "value": "Pomerol International Trading (Zhuhai) Co., Ltd"
+          },
+          {
+            "label": "Location",
+            "value": "Zhuhai, Guangdong, China"
+          },
+          {
+            "label": "Service model",
+            "value": "B2B projects and recurring execution support"
+          },
+          {
+            "label": "Working style",
+            "value": "Structured process and risk-aware delivery"
+          }
+        ]
+      },
+      "coverageSection": {
+        "badge": "Business Coverage",
+        "title": "What the company handles",
+        "summary": "The business runs across five operating lines with practical delivery responsibility."
+      },
+      "coverageItems": [
+        "3C electronics export execution for international buyers.",
+        "Industrial computer and embedded hardware sourcing support.",
+        "Supplier verification and procurement coordination in China.",
+        "Visa and relocation process support for foreign professionals.",
+        "Recruitment and job-agent support for hiring in China."
+      ],
+      "processSection": {
+        "badge": "Execution Model",
+        "title": "How projects are executed",
+        "summary": "Delivery follows a practical control model to keep commercial expectations aligned with real execution."
+      },
+      "processSteps": [
+        {
+          "title": "Scope confirmation",
+          "detail": "Each assignment is mapped to deliverables, owners, and checkpoints before engagement starts.",
+          "owner": "Account lead"
+        },
+        {
+          "title": "Cross-function execution",
+          "detail": "Procurement, QC, logistics, and case coordinators work against one shared milestone plan.",
+          "owner": "Operations manager"
+        },
+        {
+          "title": "Documented closure",
+          "detail": "Completion is recorded through delivery files and written closure notes for traceability.",
+          "owner": "Project coordinator"
+        }
+      ],
+      "controlSection": {
+        "badge": "Control Framework",
+        "title": "Control framework",
+        "summary": "The framework is designed to reduce ambiguity, rework, and communication drift."
+      },
+      "controlItems": [
+        {
+          "title": "Scope governance",
+          "signal": "Open-ended requests increase uncertainty and timeline risk.",
+          "control": "Written scope with controlled change handling."
+        },
+        {
+          "title": "Communication discipline",
+          "signal": "Multiple informal channels create conflicting instructions.",
+          "control": "Designated contacts and milestone-based updates."
+        },
+        {
+          "title": "Documentation integrity",
+          "signal": "Different versions of the same file circulate across teams.",
+          "control": "One reference version with dated revisions."
+        },
+        {
+          "title": "Commercial transparency",
+          "signal": "Assumptions are missing from quote notes.",
+          "control": "Pricing and execution assumptions stated in every proposal."
+        }
+      ],
+      "boundarySection": {
+        "badge": "Operational Boundaries",
+        "title": "Operational boundaries",
+        "summary": "The company provides process execution support, not open-ended guarantees."
+      },
+      "boundaryPoints": [
+        "Regulatory approvals and decisions by public authorities are outside provider control.",
+        "Outcome expectations depend on declared requirements and client-provided data.",
+        "Third-party performance is managed through controls but not guaranteed.",
+        "Commercial commitments are valid only when stated in signed scope documents."
+      ]
+    },
+    "products": {
+      "metadata": {
+        "title": "Product Supply Programs from China",
+        "description": "3C export and industrial computer supply programs from China with QC checkpoints and export document control."
+      },
+      "hero": {
+        "eyebrow": "Product supply",
+        "title": "Product supply programs",
+        "description": "The product line covers 3C electronics export and industrial computers with written specification baselines, supplier verification, and delivery control.",
+        "facts": [
+          {
+            "label": "Supply model",
+            "value": "Project-based and recurring order programs"
+          },
+          {
+            "label": "Quality control",
+            "value": "Pre-shipment verification checkpoints"
+          },
+          {
+            "label": "Documents",
+            "value": "Commercial and logistics file package"
+          },
+          {
+            "label": "Coverage",
+            "value": "Importers, distributors, and technical teams"
+          }
+        ]
+      },
+      "tracksSection": {
+        "badge": "Product Tracks",
+        "title": "Choose the relevant track",
+        "summary": "Pick the path based on category and technical complexity."
+      },
+      "tracks": [
+        {
+          "badge": "Product track",
+          "title": "3C Electronics Export",
+          "description": "Consumer electronics accessories and selected device categories for overseas wholesale programs.",
+          "link": {
+            "label": "Open service details",
+            "href": "/products/3c-export"
+          }
+        },
+        {
+          "badge": "Product track",
+          "title": "Industrial Computers & Embedded Systems",
+          "description": "Fanless IPC, embedded boards, and related accessories for engineering and distribution channels.",
+          "link": {
+            "label": "Open service details",
+            "href": "/products/industrial-computers"
+          }
+        }
+      ],
+      "workflowSection": {
+        "badge": "Common Workflow",
+        "title": "Shared delivery workflow",
+        "summary": "The same control structure is used across both product tracks to reduce variance."
+      },
+      "workflowSteps": [
+        {
+          "title": "Specification and commercial alignment",
+          "detail": "Baseline, acceptance criteria, target market, and packaging needs are checked before quotation.",
+          "owner": "Sales engineering"
+        },
+        {
+          "title": "Supplier quotation and capacity screening",
+          "detail": "We screen manufacturing stability, lead-time reliability, and export document readiness.",
+          "owner": "Procurement"
+        },
+        {
+          "title": "Pre-shipment control and final confirmation",
+          "detail": "Sampling, labeling checks, and shipping mark confirmation are completed before dispatch.",
+          "owner": "Quality control"
+        }
+      ],
+      "documentSection": {
+        "badge": "Document Package",
+        "title": "Standard document package",
+        "summary": "Items vary by country or contract, but this set is the normal baseline."
+      },
+      "documentTable": {
+        "columns": [
+          "Document",
+          "Purpose",
+          "Prepared by"
+        ],
+        "rows": [
+          [
+            "Commercial Invoice",
+            "Declares transaction value and cargo description",
+            "Supplier, reviewed by operations"
+          ],
+          [
+            "Packing List",
+            "Confirms quantity, weight, and package structure",
+            "Supplier, verified before release"
+          ],
+          [
+            "Specification Sheet",
+            "Records technical baseline and revision reference",
+            "Engineering or product manager"
+          ],
+          [
+            "Inspection Record",
+            "Captures sampling checks and acceptance status",
+            "QC coordinator"
+          ],
+          [
+            "Shipping Instruction File",
+            "Aligns consignee data, marks, and route details",
+            "Operations coordinator"
+          ]
+        ]
+      },
+      "riskSection": {
+        "badge": "Risk Control",
+        "title": "Risk control and boundaries",
+        "summary": "Execution quality depends on complete technical input and timely client confirmation."
+      },
+      "riskItems": [
+        {
+          "title": "Incorrect product declaration",
+          "signal": "Shipping descriptions do not match the PO or specification sheet.",
+          "control": "Final document reconciliation before shipment booking."
+        },
+        {
+          "title": "Lead-time slippage",
+          "signal": "Factory planning conflicts or missing critical components appear near production start.",
+          "control": "Milestone updates with early warning and alternate supplier paths when needed."
+        },
+        {
+          "title": "Batch inconsistency",
+          "signal": "Packaging, firmware, or hardware revision changes across lots.",
+          "control": "Batch-level checklists and reference sample signoff before mass release."
+        },
+        {
+          "title": "Unclear after-sales expectations",
+          "signal": "No agreed process for defect reporting or replacement handling.",
+          "control": "Written after-sales scope and response timeline in the contract annex."
+        }
+      ],
+      "boundaryPoints": [
+        "Minimum order quantity and lead time depend on supplier and category.",
+        "Special certification requirements must be declared before quotation.",
+        "Freight, insurance, and customs terms are finalized in contract by incoterm.",
+        "Warranty handling follows the agreed service appendix and is not open-ended."
+      ]
+    },
+    "contact": {
+      "metadata": {
+        "title": "Contact and Inquiry Intake",
+        "description": "Structured inquiry intake for sourcing, export, industrial hardware, relocation, and recruitment services."
+      },
+      "hero": {
+        "eyebrow": "Contact",
+        "title": "Contact and inquiry intake",
+        "description": "Please send a structured inquiry so we can assess feasibility, risks, and likely process steps before commitment.",
+        "facts": [
+          {
+            "label": "Contact person",
+            "value": "Nicole Fan"
+          },
+          {
+            "label": "Phone",
+            "value": "+86 13923387986"
+          },
+          {
+            "label": "Email",
+            "value": "13923387986@163.com"
+          },
+          {
+            "label": "Location",
+            "value": "Zhuhai, Guangdong, China"
+          }
+        ]
+      },
+      "directSection": {
+        "badge": "Direct Contact",
+        "title": "Direct contact",
+        "summary": "Initial communication is handled by phone or email."
+      },
+      "directCards": [
+        {
+          "badge": "Direct line",
+          "title": "Phone",
+          "value": "+86 13923387986",
+          "href": "tel:+8613923387986",
+          "description": "Best for urgent clarification on active projects."
+        },
+        {
+          "badge": "Formal brief",
+          "title": "Email",
+          "value": "13923387986@163.com",
+          "href": "mailto:13923387986@163.com",
+          "description": "Best for document-based inquiries and formal requirement submission."
+        }
+      ],
+      "inquirySection": {
+        "badge": "Inquiry Format",
+        "title": "Recommended inquiry format",
+        "summary": "Providing these fields in the first message shortens qualification time."
+      },
+      "inquiryTable": {
+        "columns": [
+          "Field",
+          "What to provide",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Service line",
+            "Products, sourcing, visa-relocation, or recruitment",
+            "Routes the inquiry to the right team"
+          ],
+          [
+            "Target market or city",
+            "Destination country or Chinese city",
+            "Defines compliance and process dependencies"
+          ],
+          [
+            "Quantity / timeline",
+            "Expected volume and required completion date",
+            "Supports feasibility and lead-time checks"
+          ],
+          [
+            "Technical or profile requirements",
+            "Product specs or candidate profile details",
+            "Prevents early-stage mismatch"
+          ],
+          [
+            "Risk constraints",
+            "Compliance, confidentiality, or budget limits",
+            "Allows realistic scope planning"
+          ]
+        ]
+      },
+      "controlSection": {
+        "badge": "Communication Controls",
+        "title": "Communication controls and boundaries",
+        "summary": "These controls keep intake precise and execution aligned."
+      },
+      "controlItems": [
+        {
+          "title": "Incomplete project brief",
+          "signal": "The inquiry omits quantity, destination market, or timeline.",
+          "control": "Use the intake checklist to provide a usable baseline."
+        },
+        {
+          "title": "Scope ambiguity at kickoff",
+          "signal": "Requested output spans multiple service lines without priorities.",
+          "control": "Break the inquiry into modules and confirm one written scope summary."
+        },
+        {
+          "title": "Delayed decision loops",
+          "signal": "Extended response gaps create timing risk for production, hiring, or submission.",
+          "control": "Nominate a primary contact and agree a response cadence."
+        },
+        {
+          "title": "Version conflict in documents",
+          "signal": "Multiple files with overlapping names arrive without clear status.",
+          "control": "Issue a dated master document list and mark replaced versions clearly."
+        }
+      ],
+      "boundaryPoints": [
+        "Formal commitment starts only after written scope and commercial terms are confirmed.",
+        "Response windows vary by inquiry complexity and file completeness.",
+        "Confidential files should be shared only through agreed channels with named recipients.",
+        "Out-of-scope requests can be assessed separately as added modules."
+      ]
+    },
+    "sourcing-service": {
+      "metadata": {
+        "title": "China Supplier Sourcing Service",
+        "description": "Supplier sourcing workflow in China covering verification, quotation alignment, pilot monitoring, and risk control."
+      },
+      "hero": {
+        "eyebrow": "Sourcing service",
+        "title": "China supplier sourcing service",
+        "description": "Structured supplier discovery and validation for overseas buyers who need cleaner comparison and tighter pilot execution.",
+        "facts": [
+          {
+            "label": "Users",
+            "value": "SME importers and procurement teams"
+          },
+          {
+            "label": "Focus",
+            "value": "Verification, comparison, and execution control"
+          },
+          {
+            "label": "Outputs",
+            "value": "Supplier shortlist, normalized quotes, pilot report"
+          },
+          {
+            "label": "Approach",
+            "value": "Evidence-based decision support"
+          }
+        ]
+      },
+      "firstSection": {
+        "badge": "Service Modules",
+        "title": "Service modules",
+        "summary": "Modules can be used as a full cycle or selected to match procurement maturity."
+      },
+      "firstTable": {
+        "columns": [
+          "Module",
+          "What is included",
+          "Typical deliverable"
+        ],
+        "rows": [
+          [
+            "Supplier discovery",
+            "Market scan and longlist aligned to the product brief",
+            "Initial supplier map with profile notes"
+          ],
+          [
+            "Verification",
+            "Legal identity and capability pre-check",
+            "Verification summary and risk flags"
+          ],
+          [
+            "Quotation alignment",
+            "Commercial comparison across shortlisted suppliers",
+            "Normalized quote matrix"
+          ],
+          [
+            "Pilot monitoring",
+            "Pilot-order tracking and issue escalation support",
+            "Pilot execution report with recommendations"
+          ]
+        ]
+      },
+      "processSection": {
+        "badge": "Verification Workflow",
+        "title": "Supplier verification workflow",
+        "summary": "Verification is handled in stages with objective evidence at each gate."
+      },
+      "processSteps": [
+        {
+          "title": "Requirement briefing and feasibility screen",
+          "detail": "Product target, volume estimate, quality standard, and commercial limits are checked first.",
+          "owner": "Project lead"
+        },
+        {
+          "title": "Supplier longlist and profile validation",
+          "detail": "Candidate suppliers are screened for registration, manufacturing fit, and delivery relevance.",
+          "owner": "Sourcing team"
+        },
+        {
+          "title": "Quotation normalization and sample coordination",
+          "detail": "Quotes are normalized for direct comparison and samples are coordinated for validation.",
+          "owner": "Procurement + QC"
+        },
+        {
+          "title": "Pilot monitoring and handover",
+          "detail": "Pilot progress, exceptions, and output quality are tracked with a written handover report.",
+          "owner": "Operations"
+        }
+      ],
+      "thirdSection": {
+        "badge": "Risk Control",
+        "title": "Risk controls",
+        "summary": "These controls reduce false positives in supplier selection and pilot execution."
+      },
+      "thirdRiskItems": [
+        {
+          "title": "Supplier profile inconsistency",
+          "signal": "Claimed capability does not match the observed production setup.",
+          "control": "Checklist-based verification and evidence scoring before recommendation."
+        },
+        {
+          "title": "Quotation ambiguity",
+          "signal": "Tooling, packaging, or after-sales assumptions are hidden in the quote.",
+          "control": "Line-by-line quote normalization with assumption disclosure."
+        },
+        {
+          "title": "Sample-to-mass gap",
+          "signal": "Mass production diverges from the approved sample benchmark.",
+          "control": "Pilot-run checkpoints and non-conformance escalation."
+        },
+        {
+          "title": "Unclear ownership",
+          "signal": "Buyer, supplier, and intermediary actions are not time-bound or traceable.",
+          "control": "Written ownership matrix and milestone log."
+        }
+      ],
+      "fourthSection": {
+        "badge": "Boundaries",
+        "title": "Operational boundaries",
+        "summary": "The following limits are defined before engagement."
+      },
+      "fourthList": [
+        "We provide process support and analysis, not a legal guarantee of future supplier performance.",
+        "Laboratory certification testing is arranged through qualified third parties when required.",
+        "Final purchase contracts are signed directly between buyer and supplier unless agreed otherwise.",
+        "Cost savings are not promised without fixed demand volume and stable specification."
+      ]
+    },
+    "visa-relocation": {
+      "metadata": {
+        "title": "Visa and Relocation Support in China",
+        "description": "Visa and relocation support for foreign professionals and employers, including case pre-check, document planning, and process follow-up."
+      },
+      "hero": {
+        "eyebrow": "Visa & relocation",
+        "title": "Visa and relocation consulting",
+        "description": "Structured case preparation and relocation support for foreign professionals and hiring companies operating in China.",
+        "facts": [
+          {
+            "label": "Main users",
+            "value": "Foreign professionals and employer HR teams"
+          },
+          {
+            "label": "Service basis",
+            "value": "Case-specific checklist and process control"
+          },
+          {
+            "label": "Coordination style",
+            "value": "Written milestones with role ownership"
+          },
+          {
+            "label": "Boundary",
+            "value": "Decision authority remains with government departments"
+          }
+        ]
+      },
+      "firstSection": {
+        "badge": "Service Scope",
+        "title": "Service scope",
+        "summary": "The service focuses on operational preparation and guidance for compliant case handling."
+      },
+      "firstList": [
+        "Initial route review based on applicant profile and city-level practice.",
+        "Document checklist preparation for the applicant and sponsoring employer.",
+        "Submission sequence planning and status follow-up support.",
+        "Practical relocation guidance for agreed post-arrival tasks."
+      ],
+      "processSection": {
+        "badge": "Case Workflow",
+        "title": "Case workflow",
+        "summary": "Each case follows staged controls to reduce rejections and timeline misunderstandings."
+      },
+      "processSteps": [
+        {
+          "title": "Eligibility pre-check",
+          "detail": "Applicant profile, job-offer status, and destination-city requirements are reviewed first.",
+          "owner": "Case coordinator"
+        },
+        {
+          "title": "Document planning and checklist issue",
+          "detail": "A case-specific checklist is prepared, including translation or legalization requirements where needed.",
+          "owner": "Documentation team"
+        },
+        {
+          "title": "Submission coordination and follow-up",
+          "detail": "Submission sequencing is tracked with reminders and correction loops.",
+          "owner": "Case coordinator"
+        },
+        {
+          "title": "Arrival and relocation handover",
+          "detail": "After approval, we assist with practical onboarding steps according to local process and agreed scope.",
+          "owner": "Relocation support"
+        }
+      ],
+      "thirdSection": {
+        "badge": "Risk Disclosure",
+        "title": "Risk disclosure and controls",
+        "summary": "The following signals are actively managed during case execution."
+      },
+      "thirdRiskItems": [
+        {
+          "title": "Incomplete applicant file",
+          "signal": "Missing notarization, expired certificates, or inconsistent background information.",
+          "control": "Pre-submission document audit and correction cycle."
+        },
+        {
+          "title": "Policy interpretation mismatch",
+          "signal": "Assumptions are based on another city or an outdated policy version.",
+          "control": "Case advice is tied to current local guidance at the time of handling."
+        },
+        {
+          "title": "Unrealistic timeline expectation",
+          "signal": "Travel or employment plans are fixed before approval milestones are secured.",
+          "control": "Timeline is communicated as a range with dependency notes."
+        },
+        {
+          "title": "Scope misunderstanding after arrival",
+          "signal": "Requests extend beyond the agreed relocation tasks.",
+          "control": "Written checklist with out-of-scope items identified early."
+        }
+      ],
+      "fourthSection": {
+        "badge": "Service Limits",
+        "title": "Service limits",
+        "summary": "These boundaries protect practical expectations in every case."
+      },
+      "fourthList": [
+        "Visa approval outcomes and processing speed are controlled by relevant authorities.",
+        "Policy updates may affect active cases; checklist changes are communicated in writing.",
+        "Legal representation in disputes is outside this consulting scope unless separately engaged.",
+        "Travel bookings should be finalized only after key approvals are secured."
+      ]
+    },
+    "recruitment-service": {
+      "metadata": {
+        "title": "Recruitment and Hiring Support in China",
+        "description": "Recruitment support for hiring in China, including role intake, screening coordination, interview flow, and onboarding handover."
+      },
+      "hero": {
+        "eyebrow": "Recruitment service",
+        "title": "Recruitment and job-agent service",
+        "description": "Structured hiring support for employers and foreign professionals with emphasis on role clarity and communication discipline.",
+        "facts": [
+          {
+            "label": "Client side",
+            "value": "Employers and hiring managers"
+          },
+          {
+            "label": "Candidate side",
+            "value": "Foreign and bilingual professionals"
+          },
+          {
+            "label": "Focus",
+            "value": "Process discipline and expectation alignment"
+          },
+          {
+            "label": "Output",
+            "value": "Shortlist, interview cycle, onboarding coordination"
+          }
+        ]
+      },
+      "firstSection": {
+        "badge": "Coverage Scope",
+        "title": "Coverage scope",
+        "summary": "Scope is defined by role complexity, hiring urgency, and required market reach."
+      },
+      "firstTable": {
+        "columns": [
+          "Hiring scenario",
+          "Service scope",
+          "Typical output"
+        ],
+        "rows": [
+          [
+            "Technical role hiring",
+            "Requirement intake and targeted candidate pipeline",
+            "Shortlist with evaluation notes"
+          ],
+          [
+            "Bilingual commercial role hiring",
+            "Channel sourcing and communication-focused screening",
+            "Interview-ready candidate set"
+          ],
+          [
+            "Relocation-linked hiring",
+            "Coordination between recruitment and visa support tasks",
+            "Integrated hiring and onboarding plan"
+          ],
+          [
+            "Urgent replacement hiring",
+            "Compressed search cycle with weekly progress updates",
+            "Priority shortlist and decision log"
+          ]
+        ]
+      },
+      "processSection": {
+        "badge": "Recruitment Workflow",
+        "title": "Recruitment workflow",
+        "summary": "The workflow keeps hiring teams and candidates aligned on timeline, criteria, and ownership."
+      },
+      "processSteps": [
+        {
+          "title": "Role intake and criteria lock",
+          "detail": "Position requirements, compensation range, reporting line, and key thresholds are documented first.",
+          "owner": "Recruitment coordinator"
+        },
+        {
+          "title": "Candidate sourcing and screening",
+          "detail": "Candidate pipelines are built through targeted channels and screened against agreed criteria.",
+          "owner": "Talent team"
+        },
+        {
+          "title": "Interview coordination and feedback loop",
+          "detail": "Scheduling, structured feedback capture, and comparison notes keep decision cycles clear.",
+          "owner": "Recruitment coordinator"
+        },
+        {
+          "title": "Offer process and onboarding handover",
+          "detail": "Offer terms are coordinated with a written record of acceptance conditions and onboarding timing.",
+          "owner": "Delivery lead"
+        }
+      ],
+      "thirdSection": {
+        "badge": "Quality Controls",
+        "title": "Quality and confidentiality controls",
+        "summary": "Controls focus on reducing rework, candidate drop-off, and communication confusion."
+      },
+      "thirdRiskItems": [
+        {
+          "title": "Role definition drift",
+          "signal": "Hiring criteria change repeatedly after the search has started.",
+          "control": "Formal role-freeze point with change-note protocol."
+        },
+        {
+          "title": "Candidate expectation mismatch",
+          "signal": "Compensation, location, or visa conditions diverge between briefing and offer stage.",
+          "control": "Expectation checks at screening and pre-offer stages."
+        },
+        {
+          "title": "Confidentiality leakage",
+          "signal": "Sensitive hiring information is shared beyond authorized participants.",
+          "control": "Need-to-know communication and designated channels."
+        },
+        {
+          "title": "Slow decision cycles",
+          "signal": "Interview feedback delays lead to candidate loss.",
+          "control": "Agreed decision timeline with escalation points."
+        }
+      ],
+      "fourthSection": {
+        "badge": "Boundaries",
+        "title": "Operational boundaries",
+        "summary": "This service supports process execution and does not replace employer responsibilities."
+      },
+      "fourthList": [
+        "Final hiring decisions, contract terms, and compliance duties remain with the employer.",
+        "Candidate acceptance cannot be guaranteed because market conditions and timing vary.",
+        "Background checks and legal screening are performed by authorized third parties when required.",
+        "Retention outcomes depend on post-hire management and sit outside recruitment process control."
+      ]
+    },
+    "products-3c-export": {
+      "metadata": {
+        "title": "3C Electronics Export from China",
+        "description": "Category scope, execution workflow, and risk controls for China-based 3C electronics export projects."
+      },
+      "hero": {
+        "eyebrow": "3C export",
+        "title": "3C electronics export",
+        "description": "Controlled sourcing and export execution for overseas buyers of 3C electronics and related accessories.",
+        "facts": [
+          {
+            "label": "Typical items",
+            "value": "Accessories, peripherals, selected consumer electronics"
+          },
+          {
+            "label": "Order style",
+            "value": "Wholesale and project orders"
+          },
+          {
+            "label": "Control focus",
+            "value": "Model consistency and document accuracy"
+          },
+          {
+            "label": "Output",
+            "value": "Shipment-ready goods and final document set"
+          }
+        ]
+      },
+      "firstSection": {
+        "badge": "Category Scope",
+        "title": "Category scope and typical MOQ",
+        "summary": "MOQ and lead time vary by item and manufacturing route."
+      },
+      "firstTable": {
+        "columns": [
+          "Category",
+          "Common examples",
+          "Typical MOQ",
+          "Lead-time reference"
+        ],
+        "rows": [
+          [
+            "Mobile accessories",
+            "Chargers, cables, adapters, power banks",
+            "1,000 to 3,000 units",
+            "20 to 35 days"
+          ],
+          [
+            "Computer peripherals",
+            "Keyboards, mice, hubs, docking accessories",
+            "500 to 2,000 units",
+            "25 to 40 days"
+          ],
+          [
+            "Audio accessories",
+            "Headsets, speakers, charging cases",
+            "1,000 to 3,000 units",
+            "25 to 45 days"
+          ],
+          [
+            "Smart-home entry models",
+            "Basic sensors and control modules",
+            "500 to 1,500 units",
+            "30 to 50 days"
+          ]
+        ]
+      },
+      "processSection": {
+        "badge": "Execution Process",
+        "title": "Execution process",
+        "summary": "Each project moves through fixed checkpoints to align technical baseline and shipment readiness."
+      },
+      "processSteps": [
+        {
+          "title": "Category and compliance intake",
+          "detail": "Target markets, packaging language, and labeling references are confirmed before supplier matching.",
+          "owner": "Account manager"
+        },
+        {
+          "title": "Supplier quote and sample verification",
+          "detail": "Quoted models are screened for production consistency and samples are checked against baseline requirements.",
+          "owner": "Procurement + QC"
+        },
+        {
+          "title": "Production planning and QC checkpoints",
+          "detail": "Key dates are fixed for material readiness, pilot-lot validation, and pre-shipment review.",
+          "owner": "Operations"
+        },
+        {
+          "title": "Shipment release and handover",
+          "detail": "Commercial files, packing data, and shipping instruction alignment are finalized before release.",
+          "owner": "Logistics coordinator"
+        }
+      ],
+      "thirdSection": {
+        "badge": "File Control",
+        "title": "Documentation and compliance handling",
+        "summary": "Export file quality is treated as part of delivery quality."
+      },
+      "thirdList": [
+        "Commercial invoice and packing list are verified against PO line items and approved model identifiers.",
+        "Shipping marks, carton labels, and pallet references are cross-checked before loading release.",
+        "Customer-specific declaration formats are incorporated when provided before quote freeze.",
+        "Inspection records and shipment photos can be added to the closure package on request."
+      ],
+      "fourthSection": {
+        "badge": "Risk Control",
+        "title": "Risk signals and service limits",
+        "summary": "These controls reduce disputes and late-stage failures in cross-border 3C orders."
+      },
+      "fourthRiskItems": [
+        {
+          "title": "Model substitution during production",
+          "signal": "A supplier proposes component replacement after PO confirmation.",
+          "control": "No substitution without a written impact statement and customer approval."
+        },
+        {
+          "title": "Labeling non-conformance",
+          "signal": "Packaging text, barcode format, or safety labels do not match market requirements.",
+          "control": "Packaging artwork and carton marks are signed off before mass production."
+        },
+        {
+          "title": "Unstable batch quality",
+          "signal": "Defect rates rise between sample batch and shipment batch.",
+          "control": "Batch sampling protocol and shipment hold option until corrective action is complete."
+        },
+        {
+          "title": "Unexpected port-side delay",
+          "signal": "Late document correction requests appear near booking cutoff.",
+          "control": "Document freeze deadline and final pre-booking audit."
+        }
+      ],
+      "fourthList": [
+        "Retail-scale single-piece orders are outside scope.",
+        "Certification issuance remains with authorized bodies and cannot be guaranteed.",
+        "Transit insurance terms are defined in contract and are not implied by default.",
+        "Post-arrival local compliance obligations remain under importer responsibility."
+      ]
+    },
+    "products-industrial-computers": {
+      "metadata": {
+        "title": "Industrial Computers and Embedded Systems",
+        "description": "Technical supply workflow and delivery controls for industrial computers and embedded hardware sourced from China."
+      },
+      "hero": {
+        "eyebrow": "Industrial systems",
+        "title": "Industrial computers and embedded systems",
+        "description": "Stable China-side supply support for technical buyers who need baseline control, revision traceability, and deployment-fit documentation.",
+        "facts": [
+          {
+            "label": "Typical clients",
+            "value": "System integrators, OEM teams, technical distributors"
+          },
+          {
+            "label": "Common products",
+            "value": "Fanless IPC, panel PC, embedded boards, edge gateways"
+          },
+          {
+            "label": "Control priority",
+            "value": "Revision traceability and lifecycle clarity"
+          },
+          {
+            "label": "Delivery mode",
+            "value": "Sample phase plus batch procurement"
+          }
+        ]
+      },
+      "firstSection": {
+        "badge": "Supply Scope",
+        "title": "Supply scope",
+        "summary": "These categories are commonly supported. Final availability depends on project requirements."
+      },
+      "firstTable": {
+        "columns": [
+          "Category",
+          "Typical specification range",
+          "Use case",
+          "Lead-time reference"
+        ],
+        "rows": [
+          [
+            "Fanless box IPC",
+            "Intel or ARM platforms with multi-I/O options",
+            "Industrial control and gateway applications",
+            "4 to 8 weeks"
+          ],
+          [
+            "Panel PC",
+            "7-inch to 21-inch industrial touch displays",
+            "HMI and production-line interface",
+            "5 to 9 weeks"
+          ],
+          [
+            "Embedded motherboard",
+            "Mini-ITX and custom carrier options",
+            "Device integration and compact systems",
+            "4 to 10 weeks"
+          ],
+          [
+            "Accessory modules",
+            "Power supplies, brackets, expansion modules",
+            "System completion and deployment support",
+            "2 to 6 weeks"
+          ]
+        ]
+      },
+      "processSection": {
+        "badge": "Engineering Workflow",
+        "title": "Engineering delivery workflow",
+        "summary": "Technical projects follow a defined path to avoid post-order specification conflict."
+      },
+      "processSteps": [
+        {
+          "title": "Application profile and baseline definition",
+          "detail": "The client provides deployment scenario, performance needs, interface limits, and environment conditions.",
+          "owner": "Sales engineering"
+        },
+        {
+          "title": "Candidate matching and lifecycle review",
+          "detail": "Shortlisted hardware is reviewed for I/O fit, expansion needs, and lifecycle stability.",
+          "owner": "Product manager"
+        },
+        {
+          "title": "Sample validation and revision lock",
+          "detail": "Pilot units are tested and revision code plus firmware reference are frozen before batch order.",
+          "owner": "Client engineering + QC"
+        },
+        {
+          "title": "Order execution and handover",
+          "detail": "Production progress, packaging specification, and shipping files are tracked through closure.",
+          "owner": "Operations"
+        }
+      ],
+      "thirdSection": {
+        "badge": "File Control",
+        "title": "Technical file control",
+        "summary": "Project closure includes references that support batch consistency and field deployment."
+      },
+      "thirdList": [
+        "Baseline specification sheet with interface, voltage, and expansion notes.",
+        "Revision reference for hardware and firmware when supplied by the manufacturer.",
+        "Packing and labeling file aligned with site logistics requirements.",
+        "Issue log for approved deviations from the original baseline."
+      ],
+      "fourthSection": {
+        "badge": "Reliability Control",
+        "title": "Reliability controls and project limits",
+        "summary": "Controls focus on lifecycle, compatibility, and documented support boundaries."
+      },
+      "fourthRiskItems": [
+        {
+          "title": "Lifecycle mismatch",
+          "signal": "The selected platform enters a discontinuation risk window too early.",
+          "control": "Lifecycle statement review and optional alternate BOM planning."
+        },
+        {
+          "title": "Interface incompatibility",
+          "signal": "Site peripherals require connectors or protocols outside the baseline.",
+          "control": "Interface mapping review before sample release."
+        },
+        {
+          "title": "Thermal or environmental failure",
+          "signal": "Operating profile exceeds tested temperature or humidity range.",
+          "control": "Early environment declaration and model selection against rated range."
+        },
+        {
+          "title": "Inadequate support expectation",
+          "signal": "The project assumes overseas onsite support that is not contractually defined.",
+          "control": "Written support matrix listing remote and onsite responsibilities."
+        }
+      ],
+      "fourthList": [
+        "Custom industrial design and certification engineering are not included unless separately scoped.",
+        "Long-term spare-stock strategy requires explicit forecasting by the buyer.",
+        "Site commissioning outside China is coordinated only if contract terms include it.",
+        "Performance under non-declared extreme conditions is outside warranty commitment."
+      ]
+    }
+  }
+}

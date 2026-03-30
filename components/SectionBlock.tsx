@@ -1,21 +1,25 @@
 import { ReactNode } from "react";
 
 type SectionBlockProps = {
+  badge?: string;
   title: string;
   summary?: string;
   children: ReactNode;
   id?: string;
 };
 
-export function SectionBlock({ title, summary, children, id }: SectionBlockProps) {
+export function SectionBlock({ badge = "Structured Delivery", title, summary, children, id }: SectionBlockProps) {
   return (
-    <section id={id} className="border-b border-slate-200 bg-white py-12 sm:py-14">
-      <div className="mx-auto max-w-site px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl">
-          <h2 className="text-2xl font-semibold text-slate-900">{title}</h2>
-          {summary ? <p className="mt-3 text-base leading-7 text-slate-700">{summary}</p> : null}
+    <section id={id} className="section-shell">
+      <div className="site-shell">
+        <div className="glass-panel rounded-[2rem] px-6 py-8 sm:px-8 sm:py-10 lg:px-10">
+          <div className="max-w-4xl">
+            <span className="section-label">{badge}</span>
+            <h2 className="mt-5 text-4xl font-semibold text-slate-950 sm:text-5xl">{title}</h2>
+            {summary ? <p className="mt-4 text-base leading-8 text-slate-700 sm:text-lg">{summary}</p> : null}
+          </div>
+          <div className="mt-8">{children}</div>
         </div>
-        <div className="mt-8">{children}</div>
       </div>
     </section>
   );

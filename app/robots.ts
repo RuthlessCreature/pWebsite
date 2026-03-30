@@ -6,7 +6,13 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: "*",
-        allow: "/"
+        allow: ["/", "/api/social-image/"],
+        disallow: ["/api/"]
+      },
+      {
+        userAgent: ["Googlebot", "Googlebot-Image", "Bingbot", "Slurp", "DuckDuckBot", "YandexBot", "Baiduspider"],
+        allow: ["/", "/api/social-image/"],
+        disallow: ["/api/"]
       }
     ],
     host: COMPANY.website,

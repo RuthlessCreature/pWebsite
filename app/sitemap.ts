@@ -1,24 +1,17 @@
 import type { MetadataRoute } from "next";
-import { COMPANY } from "@/lib/company";
-
-const routes = [
-  "/",
-  "/products",
-  "/products/3c-export",
-  "/products/industrial-computers",
-  "/sourcing-service",
-  "/visa-relocation",
-  "/recruitment-service",
-  "/about",
-  "/contact"
-];
+import { LOCALES, ROUTES, getLocalizedPath } from "@/lib/i18n/config";
+import { SEO_LAST_MODIFIED, getAbsoluteLocaleAlternates, toAbsoluteUrl } from "@/lib/seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastModified = new Date("2026-02-20T00:00:00.000Z");
-  return routes.map((route) => ({
-    url: `${COMPANY.website}${route}`,
-    lastModified,
-    changeFrequency: route === "/" || route === "/products" ? "weekly" : "monthly",
-    priority: route === "/" ? 1 : route === "/products" || route === "/sourcing-service" ? 0.9 : 0.8
-  }));
+  return LOCALES.flatMap((locale) =>
+    ROUTES.map((route) => ({
+      url: toAbsoluteUrl(getLocalizedPath(locale, route.path)),
+      lastModified: SEO_LAST_MODIFIED,
+      changeFrequency: route.path === "/" || route.path === "/products" ? "weekly" : "monthly",
+      priority: route.path === "/" ? 1 : route.path === "/products" || route.path === "/sourcing-service" ? 0.9 : 0.8,
+      alternates: {
+        languages: getAbsoluteLocaleAlternates(route.path)
+      }
+    }))
+  );
 }

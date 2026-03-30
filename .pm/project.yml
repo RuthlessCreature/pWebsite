@@ -1,0 +1,81 @@
+version: 1
+name: pWebsite
+summary: >-
+  Production-grade Next.js corporate website for: **Pomerol International Trading (Zhuhai) Co.,
+  Ltd** The site now uses a warmer brand-forward visual system, locale-prefixed multilingual
+  routing, automatic language detection, manual language switching, locale JSON dictionaries,
+  localized metadata, structured SEO data, hreflang sitemap alternates, dynamic social share
+  images, webmaster verification env support, and locale-scoped page generation for the main
+  website surfaces.
+status: active
+phase: building
+tags:
+  - Node.js
+  - React
+  - Next.js
+  - TypeScript
+  - dev-server
+  - build
+  - lint
+  - readme
+features:
+  - id: INF-FEAT-1
+    title: About
+    status: done
+  - id: INF-FEAT-2
+    title: Contact
+    status: done
+  - id: INF-FEAT-3
+    title: Globals
+    status: done
+  - id: INF-FEAT-4
+    title: Icon
+    status: unknown
+  - id: INF-FEAT-5
+    title: Layout
+    status: done
+  - id: INF-FEAT-6
+    title: Page
+    status: done
+  - id: INF-FEAT-7
+    title: Products
+    status: done
+  - id: INF-FEAT-8
+    title: Recruitment Service
+    status: done
+  - id: INF-FEAT-9
+    title: Localization
+    status: done
+  - id: INF-FEAT-10
+    title: SEO
+    status: done
+requirements:
+  - id: REQ-1
+    title: Replace document-like presentation with a stronger branded website
+    status: done
+    priority: high
+    summary: Refresh the site so it no longer reads like plain black-and-white text, while preserving the structured B2B content model.
+  - id: REQ-2
+    title: Support multilingual routing with automatic and manual language switching
+    status: done
+    priority: high
+    summary: Add locale-prefixed pages, IP or region-aware detection, and a manual language selector for Simplified Chinese, Traditional Chinese, English, Japanese, Russian, Spanish, and Portuguese.
+progress:
+  summary: Locale-prefixed routing, middleware-based language detection, cookie override switching, localized SEO metadata, translated shared navigation, and multilingual page content are now in place across zh-cn, zh-tw, en, ja, ru, es, and pt. Locale content now lives in JSON dictionaries, Spanish and Portuguese copy has been manually polished, and crawl-facing SEO now includes structured data, breadcrumb links, manifest output, richer robots directives, sitemap hreflang alternates, route-level keyword targeting, dynamic social share images, a lower-noise robots.txt policy for non-page API routes, and one consolidated SEO launch SOP covering verification, sitemap submission, keyword targeting, backlink execution, and a launch-ready checkbox checklist.
+  counts:
+    planned: 4
+    doing: 0
+    done: 10
+    blocked: 0
+blockers: []
+next_actions:
+  - Use the locale JSON dictionaries as the source of truth for future translation or copyediting work
+  - Submit the refreshed sitemap and verification tokens in Google Search Console, Bing Webmaster Tools, and any region-specific webmaster tools you plan to use after production deployment
+  - Add real search-engine verification tokens in production env vars so the generated metadata can expose them automatically
+  - Follow `SEO_SOP.md` as the single operating checklist for launch-day SEO, indexing requests, first-month backlink execution, and weekly SEO review
+links:
+  - label: repo
+    value: https://github.com/RuthlessCreature/pWebsite.git
+meta:
+  source: codex-maintained
+  last_reviewed_at: '2026-03-30'

@@ -1,0 +1,1249 @@
+{
+  "locale": "es",
+  "navItems": [
+    {
+      "label": "Inicio",
+      "href": "/"
+    },
+    {
+      "label": "Productos",
+      "href": "/products"
+    },
+    {
+      "label": "Búsqueda de proveedores",
+      "href": "/sourcing-service"
+    },
+    {
+      "label": "Visa y reubicación",
+      "href": "/visa-relocation"
+    },
+    {
+      "label": "Reclutamiento",
+      "href": "/recruitment-service"
+    },
+    {
+      "label": "Nosotros",
+      "href": "/about"
+    },
+    {
+      "label": "Contacto",
+      "href": "/contact"
+    }
+  ],
+  "header": {
+    "strapline": "Apoyo práctico desde Zhuhai para abastecimiento, exportación, reubicación y contratación en China.",
+    "languageLabel": "Idioma",
+    "secondaryActionLabel": "Enviar por email",
+    "primaryActionLabel": "Iniciar consulta"
+  },
+  "footer": {
+    "badge": "Pomerol International",
+    "title": "Más claridad para proyectos transfronterizos en China.",
+    "description": "Pomerol International Trading (Zhuhai) Co., Ltd apoya a equipos internacionales en abastecimiento, exportación, reubicación y contratación con alcance claro y ejecución por hitos.",
+    "contactTitle": "Contacto",
+    "pagesTitle": "Páginas",
+    "responseTarget": "La primera respuesta suele llegar dentro de 1 día hábil.",
+    "legalNote": "Todos los servicios se ejecutan según alcance escrito, control por hitos y términos finales de contrato."
+  },
+  "common": {
+    "ownerLabel": "Responsable",
+    "riskBadge": "Señal de riesgo",
+    "signalLabel": "Señal",
+    "controlLabel": "Control",
+    "openDetailsLabel": "Ver detalles"
+  },
+  "pages": {
+    "home": {
+      "metadata": {
+        "title": "Abastecimiento, exportación y soporte operativo en China",
+        "description": "Pomerol International apoya a equipos internacionales con abastecimiento, exportación, reubicación y coordinación de contratación en China."
+      },
+      "hero": {
+        "eyebrow": "Socio operativo en Zhuhai",
+        "title": "Abastecimiento, exportación y soporte operativo en China",
+        "description": "Un punto de apoyo en China para abastecimiento, ejecución de exportación, reubicación y contratación, con menos ruido y más control.",
+        "primaryAction": {
+          "label": "Iniciar consulta",
+          "href": "/contact"
+        },
+        "secondaryAction": {
+          "label": "Ver servicios",
+          "href": "/products"
+        },
+        "facts": [
+          {
+            "label": "Sede",
+            "value": "Zhuhai, Guangdong, China"
+          },
+          {
+            "label": "Clientes",
+            "value": "PYME, importadores, distribuidores y equipos técnicos"
+          },
+          {
+            "label": "Modelo",
+            "value": "Ejecución por alcance y hitos"
+          },
+          {
+            "label": "Respuesta inicial",
+            "value": "Normalmente dentro de 1 día hábil"
+          }
+        ]
+      },
+      "serviceSection": {
+        "badge": "Tres vías",
+        "title": "Tres formas claras de empezar",
+        "summary": "La portada organiza el trabajo en producto, abastecimiento y flujo de personas."
+      },
+      "serviceGroups": [
+        {
+          "title": "Suministro de producto",
+          "summary": "Exportación 3C y hardware industrial con coordinación de proveedor, control de calidad y documentos de exportación.",
+          "accent": "Flujo de mercancía",
+          "links": [
+            {
+              "label": "Exportación 3C",
+              "href": "/products/3c-export"
+            },
+            {
+              "label": "Computadores industriales",
+              "href": "/products/industrial-computers"
+            }
+          ]
+        },
+        {
+          "title": "Búsqueda de proveedores",
+          "summary": "Búsqueda local de proveedores, comparación de cotizaciones y seguimiento de pedido piloto para equipos de compras.",
+          "accent": "Flujo de ejecución",
+          "links": [
+            {
+              "label": "Servicio de abastecimiento",
+              "href": "/sourcing-service"
+            }
+          ]
+        },
+        {
+          "title": "Reubicación y contratación",
+          "summary": "Soporte de visa-reubicación y coordinación de reclutamiento para empresas que operan en China.",
+          "accent": "Flujo de personas",
+          "links": [
+            {
+              "label": "Visa y reubicación",
+              "href": "/visa-relocation"
+            },
+            {
+              "label": "Servicio de reclutamiento",
+              "href": "/recruitment-service"
+            }
+          ]
+        }
+      ],
+      "bestFit": {
+        "badge": "Mejor encaje",
+        "title": "Un solo socio en China, menos piezas sueltas.",
+        "description": "Envíe un resumen breve. La primera respuesta se centra en alcance, viabilidad y siguiente paso.",
+        "bullets": [
+          "PYME internacionales y compradores técnicos",
+          "Importación, abastecimiento, reubicación y contratación",
+          "Equipos que necesitan apoyo práctico dentro de China"
+        ],
+        "primaryAction": {
+          "label": "Enviar resumen",
+          "href": "/contact"
+        },
+        "secondaryAction": {
+          "label": "Sobre la empresa",
+          "href": "/about"
+        }
+      },
+      "processSection": {
+        "badge": "Modelo de trabajo",
+        "title": "Cómo empieza el trabajo",
+        "summary": "Definimos la necesidad, validamos viabilidad y luego ejecutamos por hitos."
+      },
+      "processSteps": [
+        {
+          "title": "Definir necesidad y alcance",
+          "detail": "Primero confirmamos la línea de servicio, mercado o ciudad objetivo, plazo y restricciones clave.",
+          "owner": "Responsable de cuenta"
+        },
+        {
+          "title": "Revisión de viabilidad y riesgo",
+          "detail": "Antes de avanzar verificamos ajuste de proveedor, complejidad documental, supuestos de entrega o preparación del caso.",
+          "owner": "Equipo operativo"
+        },
+        {
+          "title": "Ejecución por hitos",
+          "detail": "El trabajo sigue un plan escrito con avances, manejo de incidencias y cierre documentado.",
+          "owner": "Coordinador del proyecto"
+        }
+      ],
+      "operatingPrinciples": [
+        {
+          "title": "Primero, alcance claro",
+          "summary": "La primera respuesta aclara lo que sí entra, lo que no y qué depende de terceros."
+        },
+        {
+          "title": "Proceso visible",
+          "summary": "El cliente ve avances, puntos de decisión y escalación, no solo mensajes vagos."
+        },
+        {
+          "title": "Cierre con registro",
+          "summary": "Cada proyecto termina con archivos, notas y estado de pendientes."
+        }
+      ],
+      "riskSection": {
+        "badge": "Control de riesgos",
+        "title": "Riesgos clave y límites",
+        "summary": "Nos enfocamos en los puntos que más suelen romper proyectos transfronterizos."
+      },
+      "riskItems": [
+        {
+          "title": "Desajuste de capacidad del proveedor",
+          "signal": "La fábrica parece válida, pero no sostiene la base real de entrega.",
+          "control": "Revisamos capacidad, supuestos y límites antes de la confirmación final."
+        },
+        {
+          "title": "Huecos documentales",
+          "signal": "Factura, packing, especificación o archivos de trámite no coinciden con el requisito real.",
+          "control": "Los documentos críticos se revisan contra la base acordada antes de embarcar o presentar."
+        },
+        {
+          "title": "Desvío de calendario",
+          "signal": "Aprobaciones lentas, cambios de producción o falta de insumos empiezan a mover el plan.",
+          "control": "Los hitos y alertas tempranas ayudan a mostrar el problema antes del retraso final."
+        }
+      ],
+      "boundariesBadge": "Límites",
+      "boundaryPoints": [
+        "El alcance se confirma por escrito antes de empezar.",
+        "Aprobaciones oficiales, resultados aduaneros y certificaciones de terceros quedan fuera de nuestro control.",
+        "Precio y plazo dependen de cantidad, base técnica y supuestos comerciales."
+      ],
+      "faqBadge": "Preguntas rápidas",
+      "faq": [
+        {
+          "question": "¿Cuál es la forma más rápida de empezar?",
+          "answer": "Envíe por email la línea de servicio, mercado o ciudad objetivo, plazo y restricciones clave."
+        },
+        {
+          "question": "¿Pueden apoyar tanto producto como temas de personas?",
+          "answer": "Sí. El sitio cubre suministro de producto, abastecimiento, reubicación y coordinación de contratación."
+        },
+        {
+          "question": "¿Garantizan aprobaciones o resultados aduaneros?",
+          "answer": "No. Apoyamos preparación, control de proceso y riesgo, pero la decisión final queda en manos de la autoridad."
+        }
+      ]
+    },
+    "about": {
+      "metadata": {
+        "title": "Sobre Pomerol International",
+        "description": "Perfil, modelo operativo y marco de control de Pomerol International Trading (Zhuhai) Co., Ltd."
+      },
+      "hero": {
+        "eyebrow": "Perfil de empresa",
+        "title": "Sobre Pomerol International",
+        "description": "Empresa de servicios con base en Zhuhai que apoya a clientes internacionales en suministro, abastecimiento, reubicación y contratación en China.",
+        "facts": [
+          {
+            "label": "Entidad",
+            "value": "Pomerol International Trading (Zhuhai) Co., Ltd"
+          },
+          {
+            "label": "Ubicación",
+            "value": "Zhuhai, Guangdong, China"
+          },
+          {
+            "label": "Modelo de servicio",
+            "value": "Proyectos B2B y soporte de ejecución recurrente"
+          },
+          {
+            "label": "Estilo de trabajo",
+            "value": "Proceso estructurado y entrega consciente de los riesgos"
+          }
+        ]
+      },
+      "coverageSection": {
+        "badge": "Cobertura",
+        "title": "Qué hace la empresa",
+        "summary": "La operación actual se reparte en cinco líneas de trabajo con responsabilidad práctica de entrega."
+      },
+      "coverageItems": [
+        "Ejecución de exportación de electrónica 3C para compradores internacionales.",
+        "Soporte de abastecimiento de hardware integrado y computadoras industriales.",
+        "Verificación de proveedores y coordinación de adquisiciones en China.",
+        "Apoyo en trámites de visas y reubicación para profesionales extranjeros.",
+        "Reclutamiento y apoyo de agentes laborales para la contratación en China."
+      ],
+      "processSection": {
+        "badge": "Modelo de ejecución",
+        "title": "Cómo ejecutamos proyectos",
+        "summary": "Los proyectos siguen un marco de control práctico para alinear expectativa comercial y realidad operativa."
+      },
+      "processSteps": [
+        {
+          "title": "Confirmación de alcance",
+          "detail": "Cada asignación se asigna a entregables, propietarios y puntos de control antes de que comience la participación.",
+          "owner": "Líder de cuenta"
+        },
+        {
+          "title": "Ejecución de funciones cruzadas",
+          "detail": "Los coordinadores de adquisiciones, control de calidad, logística y casos trabajan en función de un plan de hitos compartido.",
+          "owner": "Gerente de Operaciones"
+        },
+        {
+          "title": "Cierre documentado",
+          "detail": "La finalización se registra a través de archivos de entrega y notas de cierre escritas para su trazabilidad.",
+          "owner": "Coordinador de proyecto"
+        }
+      ],
+      "controlSection": {
+        "badge": "Marco de control",
+        "title": "Marco de control",
+        "summary": "El objetivo es reducir ambigüedad, retrabajo y ruido de comunicación."
+      },
+      "controlItems": [
+        {
+          "title": "Gobernanza del alcance",
+          "signal": "Las solicitudes abiertas aumentan la incertidumbre y el riesgo en el cronograma.",
+          "control": "Alcance escrito con manejo de cambios controlado."
+        },
+        {
+          "title": "Disciplina de la comunicación",
+          "signal": "Múltiples canales informales crean instrucciones contradictorias.",
+          "control": "Contactos designados y actualizaciones basadas en hitos."
+        },
+        {
+          "title": "Integridad de la documentación",
+          "signal": "Diferentes versiones del mismo archivo circulan entre equipos.",
+          "control": "Una versión de referencia con revisiones fechadas."
+        },
+        {
+          "title": "Transparencia comercial",
+          "signal": "Faltan suposiciones en las notas de las citas.",
+          "control": "Supuestos de fijación de precios y ejecución establecidos en cada propuesta."
+        }
+      ],
+      "boundarySection": {
+        "badge": "Límites operativos",
+        "title": "Límites operativos",
+        "summary": "La empresa ofrece soporte de proceso, no garantías abiertas e ilimitadas."
+      },
+      "boundaryPoints": [
+        "Las aprobaciones regulatorias y las decisiones de las autoridades públicas están fuera del control del proveedor.",
+        "Las expectativas de resultados dependen de los requisitos declarados y de los datos proporcionados por el cliente.",
+        "El rendimiento de terceros se gestiona mediante controles, pero no se garantiza.",
+        "Los compromisos comerciales son válidos sólo cuando se establecen en documentos de alcance firmados."
+      ]
+    },
+    "products": {
+      "metadata": {
+        "title": "Programas de suministro desde China",
+        "description": "Programas de exportación 3C y suministro de computación industrial desde China, con control de calidad y documentación."
+      },
+      "hero": {
+        "eyebrow": "Suministro de producto",
+        "title": "Programas de suministro",
+        "description": "La línea de producto cubre exportación 3C y computación industrial con base técnica documentada, verificación de proveedor y control de entrega.",
+        "facts": [
+          {
+            "label": "Modelo de suministro",
+            "value": "Programas de pedidos recurrentes y basados en proyectos"
+          },
+          {
+            "label": "Control de calidad",
+            "value": "Puntos de control de verificación previos al envío"
+          },
+          {
+            "label": "Documentos",
+            "value": "Paquete de archivo comercial y logístico"
+          },
+          {
+            "label": "Cobertura",
+            "value": "Importadores, distribuidores y equipos técnicos"
+          }
+        ]
+      },
+      "tracksSection": {
+        "badge": "Líneas de producto",
+        "title": "Elegir la línea adecuada",
+        "summary": "Seleccione la ruta según categoría y complejidad técnica."
+      },
+      "tracks": [
+        {
+          "badge": "Seguimiento del producto",
+          "title": "Exportación de electrónica 3C",
+          "description": "Accesorios de electrónica de consumo y categorías de dispositivos seleccionadas para programas mayoristas en el extranjero.",
+          "link": {
+            "label": "Abrir detalles del servicio",
+            "href": "/products/3c-export"
+          }
+        },
+        {
+          "badge": "Seguimiento del producto",
+          "title": "Computadoras industriales y sistemas integrados",
+          "description": "Equipos IPC sin ventilador, placas integradas y accesorios relacionados para canales de ingeniería y distribución.",
+          "link": {
+            "label": "Abrir detalles del servicio",
+            "href": "/products/industrial-computers"
+          }
+        }
+      ],
+      "workflowSection": {
+        "badge": "Flujo común",
+        "title": "Flujo compartido de entrega",
+        "summary": "Ambas líneas siguen la misma estructura de control para reducir variación."
+      },
+      "workflowSteps": [
+        {
+          "title": "Especificación y alineación comercial",
+          "detail": "La línea base, los criterios de aceptación, el mercado objetivo y las necesidades de embalaje se verifican antes de la cotización.",
+          "owner": "Ingeniería de ventas"
+        },
+        {
+          "title": "Cotización de proveedores y evaluación de capacidad",
+          "detail": "Evaluamos la estabilidad de fabricación, la confiabilidad del plazo de entrega y la preparación de los documentos de exportación.",
+          "owner": "Adquisiciones"
+        },
+        {
+          "title": "Control previo al envío y confirmación final",
+          "detail": "El muestreo, las comprobaciones de etiquetado y la confirmación de la marca de envío se completan antes del envío.",
+          "owner": "Control de calidad"
+        }
+      ],
+      "documentSection": {
+        "badge": "Paquete documental",
+        "title": "Paquete documental estándar",
+        "summary": "Puede variar por país o contrato, pero este es el set base habitual."
+      },
+      "documentTable": {
+        "columns": [
+          "Documento",
+          "Propósito",
+          "Preparado por"
+        ],
+        "rows": [
+          [
+            "Factura Comercial",
+            "Declara el valor de la transacción y la descripción de la carga.",
+            "Proveedor, revisado por operaciones"
+          ],
+          [
+            "Lista de embalaje",
+            "Confirma la cantidad, el peso y la estructura del paquete.",
+            "Proveedor, verificado antes del lanzamiento"
+          ],
+          [
+            "Hoja de especificaciones",
+            "Registra la línea base técnica y la referencia de revisión.",
+            "Ingeniería o gerente de producto"
+          ],
+          [
+            "Registro de inspección",
+            "Captura comprobaciones de muestreo y estado de aceptación",
+            "Coordinador de control de calidad"
+          ],
+          [
+            "Archivo de instrucciones de envío",
+            "Alinea los datos del destinatario, las marcas y los detalles de la ruta",
+            "Coordinador de operaciones"
+          ]
+        ]
+      },
+      "riskSection": {
+        "badge": "Control de riesgos",
+        "title": "Control de riesgos y límites",
+        "summary": "La calidad de ejecución depende de datos técnicos completos y confirmación oportuna del cliente."
+      },
+      "riskItems": [
+        {
+          "title": "Declaración de producto incorrecta",
+          "signal": "Las descripciones de envío no coinciden con la orden de compra o la hoja de especificaciones.",
+          "control": "Conciliación final de documentos antes de la reserva del envío."
+        },
+        {
+          "title": "Desvío del plazo de entrega",
+          "signal": "Aparecen conflictos de planificación de fábrica o faltan componentes críticos cerca del inicio de la producción.",
+          "control": "Seguimiento por hitos con alerta temprana y rutas alternativas de proveedor cuando sea necesario."
+        },
+        {
+          "title": "Inconsistencia de lote",
+          "signal": "Cambios en el embalaje, el firmware o la revisión del hardware entre lotes.",
+          "control": "Listas de verificación a nivel de lote y aprobación de muestras de referencia antes del lanzamiento masivo."
+        },
+        {
+          "title": "Expectativas posventa poco claras",
+          "signal": "No hay ningún proceso acordado para informar defectos o gestionar reemplazos.",
+          "control": "Alcance posventa escrito y cronograma de respuesta en el anexo del contrato."
+        }
+      ],
+      "boundaryPoints": [
+        "La cantidad mínima de pedido y el tiempo de entrega dependen del proveedor y la categoría.",
+        "Los requisitos de certificación especiales deben declararse antes de la cotización.",
+        "Los términos de flete, seguro y aduanas se finalizan en el contrato mediante incoterm.",
+        "El manejo de la garantía sigue el apéndice de servicio acordado y no es indefinido."
+      ]
+    },
+    "contact": {
+      "metadata": {
+        "title": "Contacto y recepción de consultas",
+        "description": "Canal estructurado para consultas sobre abastecimiento, exportación, hardware industrial, reubicación y reclutamiento."
+      },
+      "hero": {
+        "eyebrow": "Contacto",
+        "title": "Contacto y recepción de consultas",
+        "description": "Cuanto más estructurada llegue la consulta inicial, más rápido podremos evaluar viabilidad, riesgos y siguientes pasos.",
+        "facts": [
+          {
+            "label": "Persona de contacto",
+            "value": "Nicole Fan"
+          },
+          {
+            "label": "Teléfono",
+            "value": "+86 13923387986"
+          },
+          {
+            "label": "Correo electrónico",
+            "value": "13923387986@163.com"
+          },
+          {
+            "label": "Ubicación",
+            "value": "Zhuhai, Guangdong, China"
+          }
+        ]
+      },
+      "directSection": {
+        "badge": "Contacto directo",
+        "title": "Contacto directo",
+        "summary": "La comunicación inicial se gestiona por teléfono o email."
+      },
+      "directCards": [
+        {
+          "badge": "Línea directa",
+          "title": "Teléfono",
+          "value": "+86 13923387986",
+          "href": "tel:+8613923387986",
+          "description": "Lo mejor para aclaraciones urgentes sobre proyectos activos."
+        },
+        {
+          "badge": "Informe formal",
+          "title": "Correo electrónico",
+          "value": "13923387986@163.com",
+          "href": "mailto:13923387986@163.com",
+          "description": "Ideal para consultas basadas en documentos y presentación de requisitos formales."
+        }
+      ],
+      "inquirySection": {
+        "badge": "Formato sugerido",
+        "title": "Formato recomendado",
+        "summary": "Incluir estos campos en el primer mensaje acorta el tiempo de calificación."
+      },
+      "inquiryTable": {
+        "columns": [
+          "Campo",
+          "Qué proporcionar",
+          "Por qué es importante"
+        ],
+        "rows": [
+          [
+            "Línea de servicio",
+            "Productos, abastecimiento, visa-reubicación o contratación",
+            "Dirige la consulta al equipo correcto"
+          ],
+          [
+            "Mercado o ciudad objetivo",
+            "País de destino o ciudad china",
+            "Define el cumplimiento y las dependencias del proceso."
+          ],
+          [
+            "Cantidad/cronograma",
+            "Volumen esperado y fecha de finalización requerida",
+            "Admite comprobaciones de viabilidad y plazos de entrega"
+          ],
+          [
+            "Requisitos técnicos o de perfil",
+            "Especificaciones del producto o detalles del perfil del candidato",
+            "Previene el desajuste en las primeras etapas"
+          ],
+          [
+            "Restricciones de riesgo",
+            "Cumplimiento, confidencialidad o límites presupuestarios",
+            "Permite una planificación del alcance realista"
+          ]
+        ]
+      },
+      "controlSection": {
+        "badge": "Control de comunicación",
+        "title": "Control de comunicación y límites",
+        "summary": "Estas reglas ayudan a mantener una recepción clara y una ejecución alineada."
+      },
+      "controlItems": [
+        {
+          "title": "Resumen del proyecto incompleto",
+          "signal": "La consulta omite la cantidad, el mercado de destino o el cronograma.",
+          "control": "Utilice la lista de verificación inicial para proporcionar una base de trabajo utilizable."
+        },
+        {
+          "title": "Alcance ambiguo en el inicio",
+          "signal": "La salida solicitada abarca múltiples líneas de servicio sin prioridades.",
+          "control": "Divida la consulta en módulos y confirme un resumen escrito del alcance."
+        },
+        {
+          "title": "Bucles de decisión retrasados",
+          "signal": "Las brechas de respuesta extendidas crean riesgos de tiempo para la producción, la contratación o la presentación.",
+          "control": "Nomine un contacto principal y acuerde una cadencia de respuesta."
+        },
+        {
+          "title": "Conflicto de versiones en documentos",
+          "signal": "Llegan varios archivos con nombres superpuestos sin un estado claro.",
+          "control": "Emita una lista maestra de documentos con fecha y marque claramente las versiones reemplazadas."
+        }
+      ],
+      "boundaryPoints": [
+        "El compromiso formal comienza sólo después de que se confirmen por escrito el alcance y los términos comerciales.",
+        "Las ventanas de respuesta varían según la complejidad de la consulta y la integridad del archivo.",
+        "Los archivos confidenciales deben compartirse únicamente a través de canales acordados con destinatarios designados.",
+        "Las solicitudes fuera de alcance se pueden evaluar por separado como módulos agregados."
+      ]
+    },
+    "sourcing-service": {
+      "metadata": {
+        "title": "Servicio de abastecimiento en China",
+        "description": "Flujo de abastecimiento en China con verificación, comparación de cotizaciones y control del pedido piloto."
+      },
+      "hero": {
+        "eyebrow": "Abastecimiento",
+        "title": "Servicio de abastecimiento en China",
+        "description": "Para compradores internacionales que necesitan comparar mejor a sus proveedores y tener más control en la fase piloto.",
+        "facts": [
+          {
+            "label": "Usuarios",
+            "value": "Pymes importadoras y equipos de adquisiciones"
+          },
+          {
+            "label": "Enfoque",
+            "value": "Verificación, comparación y control de ejecución"
+          },
+          {
+            "label": "Salidas",
+            "value": "Lista corta de proveedores, cotizaciones normalizadas, informe piloto"
+          },
+          {
+            "label": "Método",
+            "value": "Apoyo a la toma de decisiones basado en evidencia"
+          }
+        ]
+      },
+      "firstSection": {
+        "badge": "Módulos",
+        "title": "Módulos del servicio",
+        "summary": "Puede tomarse el ciclo completo o solo los bloques necesarios."
+      },
+      "firstTable": {
+        "columns": [
+          "Módulo",
+          "Qué está incluido",
+          "Entregable típico"
+        ],
+        "rows": [
+          [
+            "Descubrimiento de proveedores",
+            "Escaneo de mercado y lista larga alineados con el resumen del producto",
+            "Mapa inicial de proveedores con notas de perfil"
+          ],
+          [
+            "Verificación",
+            "Verificación previa de identidad legal y capacidad",
+            "Resumen de verificación e indicadores de riesgo"
+          ],
+          [
+            "Alineación de cotizaciones",
+            "Comparación comercial entre proveedores preseleccionados",
+            "Matriz de cotización normalizada"
+          ],
+          [
+            "Monitoreo piloto",
+            "Seguimiento de pedidos piloto y soporte para escalamiento de problemas",
+            "Informe de ejecución piloto con recomendaciones"
+          ]
+        ]
+      },
+      "processSection": {
+        "badge": "Flujo de verificación",
+        "title": "Flujo de verificación de proveedor",
+        "summary": "Se trabaja por etapas con evidencia objetiva en cada punto."
+      },
+      "processSteps": [
+        {
+          "title": "Resumen de requisitos y revisión de viabilidad",
+          "detail": "Primero se verifican el objetivo del producto, la estimación de volumen, el estándar de calidad y los límites comerciales.",
+          "owner": "Líder del proyecto"
+        },
+        {
+          "title": "Lista larga de proveedores y validación del perfil",
+          "detail": "Los proveedores candidatos son seleccionados para determinar su registro, idoneidad de fabricación y relevancia de entrega.",
+          "owner": "Equipo de abastecimiento"
+        },
+        {
+          "title": "Normalización de cotizaciones y coordinación de muestras",
+          "detail": "Las cotizaciones se normalizan para una comparación directa y las muestras se coordinan para su validación.",
+          "owner": "Adquisiciones + Control de calidad"
+        },
+        {
+          "title": "Seguimiento y cierre del piloto",
+          "detail": "El progreso del piloto, las excepciones y la calidad de los resultados se rastrean con un informe de entrega escrito.",
+          "owner": "Operaciones"
+        }
+      ],
+      "thirdSection": {
+        "badge": "Riesgo",
+        "title": "Controles de riesgo",
+        "summary": "El foco está en reducir errores de selección y ejecución piloto."
+      },
+      "thirdRiskItems": [
+        {
+          "title": "Inconsistencia en el perfil del proveedor",
+          "signal": "La capacidad reclamada no coincide con la configuración de producción observada.",
+          "control": "Verificación basada en listas de verificación y puntuación de evidencia antes de la recomendación."
+        },
+        {
+          "title": "Ambigüedad en la cotización",
+          "signal": "Las suposiciones sobre herramientas, embalaje o posventa están ocultas en la cotización.",
+          "control": "Normalización de cotizaciones línea por línea con divulgación de supuestos."
+        },
+        {
+          "title": "Brecha entre muestra y producción en masa",
+          "signal": "La producción en masa difiere de la muestra de referencia aprobada.",
+          "control": "Puntos de control piloto y escalada de no conformidades."
+        },
+        {
+          "title": "Propiedad poco clara",
+          "signal": "Las acciones del comprador, proveedor e intermediario no están sujetas a plazos ni son rastreables.",
+          "control": "Matriz de propiedad escrita y registro de hitos."
+        }
+      ],
+      "fourthSection": {
+        "badge": "Límites",
+        "title": "Límites operativos",
+        "summary": "Estas limitaciones se aclaran antes de iniciar."
+      },
+      "fourthList": [
+        "Brindamos soporte y análisis de procesos, no una garantía legal del desempeño futuro del proveedor.",
+        "Las pruebas de certificación de laboratorio se organizan a través de terceros calificados cuando es necesario.",
+        "Los contratos de compra finales se firman directamente entre el comprador y el proveedor a menos que se acuerde lo contrario.",
+        "No se prometen ahorros de costos sin un volumen de demanda fijo y especificaciones estables."
+      ]
+    },
+    "visa-relocation": {
+      "metadata": {
+        "title": "Visa y reubicación en China",
+        "description": "Apoyo de visa y reubicación para profesionales extranjeros y empleadores."
+      },
+      "hero": {
+        "eyebrow": "Visa y reubicación",
+        "title": "Consultoría de visa y reubicación",
+        "description": "Preparación de caso, planificación documental y acompañamiento de pasos de reubicación en China.",
+        "facts": [
+          {
+            "label": "Usuarios principales",
+            "value": "Profesionales extranjeros y equipos de RRHH de empleadores"
+          },
+          {
+            "label": "Base del servicio",
+            "value": "Lista de verificación y control de procesos específicos del caso"
+          },
+          {
+            "label": "Estilo de coordinación",
+            "value": "Hitos escritos con propiedad de rol"
+          },
+          {
+            "label": "Límite",
+            "value": "La autoridad de decisión permanece en los departamentos gubernamentales"
+          }
+        ]
+      },
+      "firstSection": {
+        "badge": "Alcance",
+        "title": "Alcance del servicio",
+        "summary": "Se centra en preparación operativa, guía de proceso y soporte práctico post-llegada."
+      },
+      "firstList": [
+        "Revisión inicial de la ruta basada en el perfil del solicitante y la práctica a nivel de ciudad.",
+        "Preparación de la lista de verificación de documentos para el solicitante y el empleador patrocinador.",
+        "Planificación de secuencia de envío y soporte de seguimiento de estado.",
+        "Orientación práctica sobre reubicación para tareas acordadas posteriores a la llegada."
+      ],
+      "processSection": {
+        "badge": "Flujo del caso",
+        "title": "Flujo del caso",
+        "summary": "Cada caso avanza por etapas para reducir rechazos y expectativas erróneas de plazo."
+      },
+      "processSteps": [
+        {
+          "title": "Verificación previa de elegibilidad",
+          "detail": "Primero se revisan el perfil del solicitante, el estado de la oferta de trabajo y los requisitos de la ciudad de destino.",
+          "owner": "Coordinador de caso"
+        },
+        {
+          "title": "Problema con la planificación de documentos y la lista de verificación",
+          "detail": "Se prepara una lista de verificación específica para cada caso, incluidos los requisitos de traducción o legalización cuando sea necesario.",
+          "owner": "Equipo de documentación"
+        },
+        {
+          "title": "Coordinación y seguimiento de envíos",
+          "detail": "La secuencia de envío se realiza con recordatorios y bucles de corrección.",
+          "owner": "Coordinador de caso"
+        },
+        {
+          "title": "Llegada y entrega de reubicación",
+          "detail": "Después de la aprobación, lo ayudamos con pasos prácticos de incorporación de acuerdo con el proceso local y el alcance acordado.",
+          "owner": "Soporte de reubicación"
+        }
+      ],
+      "thirdSection": {
+        "badge": "Riesgos",
+        "title": "Riesgos y controles",
+        "summary": "Estas son las señales que conviene vigilar durante la ejecución."
+      },
+      "thirdRiskItems": [
+        {
+          "title": "Expediente de solicitante incompleto",
+          "signal": "Falta notarización, certificados vencidos o antecedentes inconsistentes.",
+          "control": "Ciclo de corrección y auditoría de documentos previo al envío."
+        },
+        {
+          "title": "Discrepancia en la interpretación de la política",
+          "signal": "Los supuestos se basan en otra ciudad o en una versión de política desactualizada.",
+          "control": "El asesoramiento sobre casos está vinculado a las directrices locales vigentes en el momento de su tratamiento."
+        },
+        {
+          "title": "Expectativa de cronograma poco realista",
+          "signal": "Los planes de viaje o empleo se fijan antes de que se aseguren los hitos de aprobación.",
+          "control": "La línea de tiempo se comunica como un rango con notas de dependencia."
+        },
+        {
+          "title": "Alcance malentendido después de la llegada",
+          "signal": "Las solicitudes van más allá de las tareas de reubicación acordadas.",
+          "control": "Lista de verificación escrita con elementos fuera de alcance identificados tempranamente."
+        }
+      ],
+      "fourthSection": {
+        "badge": "Límites",
+        "title": "Límites del servicio",
+        "summary": "Estos límites protegen expectativas realistas."
+      },
+      "fourthList": [
+        "Los resultados de la aprobación de visas y la velocidad de procesamiento están controlados por las autoridades pertinentes.",
+        "Las actualizaciones de políticas pueden afectar los casos activos; Los cambios en la lista de verificación se comunican por escrito.",
+        "La representación legal en disputas está fuera del alcance de esta consultoría a menos que se contrate por separado.",
+        "Las reservas de viajes deben finalizarse solo después de obtener las aprobaciones clave."
+      ]
+    },
+    "recruitment-service": {
+      "metadata": {
+        "title": "Servicio de reclutamiento en China",
+        "description": "Apoyo al reclutamiento en China con definición del puesto, preselección, entrevistas y traspaso a incorporación."
+      },
+      "hero": {
+        "eyebrow": "Reclutamiento",
+        "title": "Servicio de reclutamiento y apoyo a la contratación",
+        "description": "Soporte práctico de contratación con foco en claridad del rol, disciplina de proceso y alineación de expectativas.",
+        "facts": [
+          {
+            "label": "Lado del cliente",
+            "value": "Empleadores y gerentes de contratación"
+          },
+          {
+            "label": "Lado candidato",
+            "value": "Profesionales extranjeros y bilingües"
+          },
+          {
+            "label": "Enfoque",
+            "value": "Disciplina del proceso y alineación de expectativas"
+          },
+          {
+            "label": "Resultado",
+            "value": "Lista corta, ciclo de entrevistas y coordinación de incorporación"
+          }
+        ]
+      },
+      "firstSection": {
+        "badge": "Cobertura",
+        "title": "Cobertura del servicio",
+        "summary": "El alcance depende de complejidad del rol, urgencia y amplitud de mercado requerida."
+      },
+      "firstTable": {
+        "columns": [
+          "Escenario de contratación",
+          "Alcance del servicio",
+          "Salida típica"
+        ],
+        "rows": [
+          [
+            "Contratación de roles técnicos",
+            "Levantamiento de requisitos y búsqueda dirigida de candidatos",
+            "Lista corta con notas de evaluación"
+          ],
+          [
+            "Contratación de rol comercial bilingüe",
+            "Búsqueda de canales y selección centrada en la comunicación",
+            "Conjunto de candidatos listos para la entrevista"
+          ],
+          [
+            "Contratación vinculada a la reubicación",
+            "Coordinación entre tareas de reclutamiento y soporte de visas.",
+            "Plan integrado de contratación e incorporación"
+          ],
+          [
+            "Urgente contratación de reposición",
+            "Ciclo de búsqueda comprimido con actualizaciones de progreso semanales",
+            "Lista de prioridades y registro de decisiones"
+          ]
+        ]
+      },
+      "processSection": {
+        "badge": "Flujo de reclutamiento",
+        "title": "Flujo de reclutamiento",
+        "summary": "El proceso ayuda a mantener alineados a empresa y candidato en plazos y criterios."
+      },
+      "processSteps": [
+        {
+          "title": "Definición del puesto y criterios",
+          "detail": "Primero se documentan el perfil del puesto, el rango salarial, la línea jerárquica y los criterios clave.",
+          "owner": "Coordinador de Reclutamiento"
+        },
+        {
+          "title": "Búsqueda y preselección de candidatos",
+          "detail": "El pipeline de candidatos se construye por canales específicos y se filtra según los criterios acordados.",
+          "owner": "Equipo de talentos"
+        },
+        {
+          "title": "Entrevistas y ciclo de feedback",
+          "detail": "La programación, la captura de comentarios estructurados y las notas comparativas mantienen claros los ciclos de decisión.",
+          "owner": "Coordinador de Reclutamiento"
+        },
+        {
+          "title": "Oferta y traspaso a incorporación",
+          "detail": "Los términos de la oferta se coordinan con un registro escrito de las condiciones de aceptación y el momento de incorporación.",
+          "owner": "Líder de entrega"
+        }
+      ],
+      "thirdSection": {
+        "badge": "Calidad",
+        "title": "Calidad y confidencialidad",
+        "summary": "El objetivo es reducir retrabajo, pérdida de candidatos y confusión de comunicación."
+      },
+      "thirdRiskItems": [
+        {
+          "title": "Desviación de la definición de rol",
+          "signal": "Los criterios de contratación cambian repetidamente una vez iniciada la búsqueda.",
+          "control": "Punto formal de congelación de roles con protocolo de nota de cambio."
+        },
+        {
+          "title": "Desajuste de expectativas del candidato",
+          "signal": "Las condiciones de compensación, ubicación o visa difieren entre la etapa de información y la de oferta.",
+          "control": "Verificaciones de expectativas en las etapas de selección y preoferta."
+        },
+        {
+          "title": "Fuga de confidencialidad",
+          "signal": "La información confidencial de contratación se comparte más allá de los participantes autorizados.",
+          "control": "Comunicación necesaria y canales designados."
+        },
+        {
+          "title": "Ciclos de decisión lentos",
+          "signal": "Los retrasos en la retroalimentación de la entrevista provocan la pérdida del candidato.",
+          "control": "Cronograma de decisión acordado con puntos de escalada."
+        }
+      ],
+      "fourthSection": {
+        "badge": "Límites",
+        "title": "Límites operativos",
+        "summary": "El servicio apoya el proceso, pero no sustituye las responsabilidades del empleador."
+      },
+      "fourthList": [
+        "Las decisiones finales de contratación, los términos del contrato y las obligaciones de cumplimiento quedan en manos del empleador.",
+        "No se puede garantizar la aceptación del candidato porque las condiciones y los plazos del mercado varían.",
+        "La verificación de antecedentes y la investigación legal son realizadas por terceros autorizados cuando es necesario.",
+        "Los resultados de la retención dependen de la gestión posterior a la contratación y quedan fuera del control del proceso de contratación."
+      ]
+    },
+    "products-3c-export": {
+      "metadata": {
+        "title": "Exportación 3C desde China",
+        "description": "Categorías, flujo de ejecución y control de riesgos para proyectos de exportación 3C desde China."
+      },
+      "hero": {
+        "eyebrow": "Exportación 3C",
+        "title": "Exportación de electrónica 3C",
+        "description": "Abastecimiento y ejecución de exportación controlados para compradores internacionales de electrónica y accesorios.",
+        "facts": [
+          {
+            "label": "Elementos típicos",
+            "value": "Accesorios, periféricos, electrónica de consumo seleccionada"
+          },
+          {
+            "label": "Estilo de pedido",
+            "value": "Pedidos al por mayor y de proyecto"
+          },
+          {
+            "label": "Enfoque de control",
+            "value": "Coherencia del modelo y precisión del documento"
+          },
+          {
+            "label": "Salida",
+            "value": "Mercancías listas para el envío y conjunto de documentos finales"
+          }
+        ]
+      },
+      "firstSection": {
+        "badge": "Categorías",
+        "title": "Categorías y MOQ típico",
+        "summary": "MOQ y plazo varían según categoría y ruta de fabricación."
+      },
+      "firstTable": {
+        "columns": [
+          "Categoría",
+          "Ejemplos comunes",
+          "MOQ típico",
+          "Referencia de plazo de entrega"
+        ],
+        "rows": [
+          [
+            "Accesorios móviles",
+            "Cargadores, cables, adaptadores, powerbanks",
+            "1.000 a 3.000 unidades",
+            "20 a 35 días"
+          ],
+          [
+            "Periféricos de ordenador",
+            "Teclados, ratones, concentradores, accesorios de acoplamiento",
+            "500 a 2000 unidades",
+            "25 a 40 días"
+          ],
+          [
+            "Accesorios de audio",
+            "Auriculares, parlantes, estuches de carga",
+            "1.000 a 3.000 unidades",
+            "25 a 45 días"
+          ],
+          [
+            "Modelos de entrada de hogar inteligente",
+            "Sensores básicos y módulos de control",
+            "500 a 1.500 unidades",
+            "30 a 50 días"
+          ]
+        ]
+      },
+      "processSection": {
+        "badge": "Proceso",
+        "title": "Proceso de ejecución",
+        "summary": "Cada proyecto pasa por puntos de control fijos para alinear la base técnica y la preparación de embarque."
+      },
+      "processSteps": [
+        {
+          "title": "Categoría y cumplimiento de admisión",
+          "detail": "Los mercados objetivo, el idioma del empaque y las referencias del etiquetado se confirman antes de buscar proveedores.",
+          "owner": "Administrador de cuentas"
+        },
+        {
+          "title": "Cotización del proveedor y verificación de muestra",
+          "detail": "Los modelos cotizados se examinan para comprobar la coherencia de la producción y las muestras se comparan con los requisitos básicos.",
+          "owner": "Adquisiciones + Control de calidad"
+        },
+        {
+          "title": "Planificación de la producción y puntos de control de calidad",
+          "detail": "Se fijan fechas clave para la preparación del material, la validación del lote piloto y la revisión previa al envío.",
+          "owner": "Operaciones"
+        },
+        {
+          "title": "Liberación y entrega del envío",
+          "detail": "Los archivos comerciales, los datos de embalaje y la alineación de las instrucciones de envío se finalizan antes del lanzamiento.",
+          "owner": "Coordinador de logística"
+        }
+      ],
+      "thirdSection": {
+        "badge": "Documentos",
+        "title": "Documentación y cumplimiento",
+        "summary": "La calidad documental se trata como parte de la calidad de entrega."
+      },
+      "thirdList": [
+        "La factura comercial y la lista de empaque se verifican con las líneas de pedido y los identificadores de modelo aprobados.",
+        "Las marcas de envío, las etiquetas de las cajas y las referencias de los palés se verifican antes de liberar la carga.",
+        "Los formatos de declaración específicos del cliente se incorporan cuando se proporcionan antes de congelar la cotización.",
+        "Los registros de inspección y las fotografías del envío se pueden agregar al paquete de cierre si se solicita."
+      ],
+      "fourthSection": {
+        "badge": "Riesgo",
+        "title": "Señales de riesgo y límites",
+        "summary": "Estos controles ayudan a reducir disputas y fallas de última hora."
+      },
+      "fourthRiskItems": [
+        {
+          "title": "Sustitución de modelo durante la producción",
+          "signal": "Un proveedor propone el reemplazo de componentes después de la confirmación de la orden de compra.",
+          "control": "No se permite ninguna sustitución sin una declaración de impacto por escrito y la aprobación del cliente."
+        },
+        {
+          "title": "No conformidad con el etiquetado",
+          "signal": "El texto del embalaje, el formato del código de barras o las etiquetas de seguridad no coinciden con los requisitos del mercado.",
+          "control": "El diseño del embalaje y las marcas de la caja se aprueban antes de la producción en masa."
+        },
+        {
+          "title": "Calidad de lote inestable",
+          "signal": "Las tasas de defectos aumentan entre el lote de muestra y el lote de envío.",
+          "control": "Protocolo de muestreo por lotes y opción de retención del envío hasta que se complete la acción correctiva."
+        },
+        {
+          "title": "Retraso inesperado en el lado de puerto",
+          "signal": "Las solicitudes de corrección de documentos tardías aparecen cerca del límite de reserva.",
+          "control": "Plazo de congelación de documentos y auditoría final previa a la reserva."
+        }
+      ],
+      "fourthList": [
+        "Los pedidos de una sola pieza a escala minorista están fuera del alcance.",
+        "La emisión de la certificación queda en manos de organismos autorizados y no se puede garantizar.",
+        "Los términos del seguro de tránsito se definen en el contrato y no están implícitos por defecto.",
+        "Las obligaciones de cumplimiento local posteriores a la llegada siguen siendo responsabilidad del importador."
+      ]
+    },
+    "products-industrial-computers": {
+      "metadata": {
+        "title": "Computadores industriales y sistemas embebidos",
+        "description": "Flujo técnico de suministro y control de entrega para hardware industrial y embebido desde China."
+      },
+      "hero": {
+        "eyebrow": "Sistemas industriales",
+        "title": "Computadores industriales y sistemas embebidos",
+        "description": "Soporte de suministro desde China para compradores técnicos que necesitan control de la base técnica, trazabilidad de revisión y ajuste al despliegue.",
+        "facts": [
+          {
+            "label": "Clientes típicos",
+            "value": "Integradores de sistemas, equipos OEM, distribuidores técnicos"
+          },
+          {
+            "label": "Productos comunes",
+            "value": "Equipos IPC sin ventilador, paneles PC, placas integradas y pasarelas industriales"
+          },
+          {
+            "label": "Prioridad de control",
+            "value": "Trazabilidad de la revisión y claridad del ciclo de vida"
+          },
+          {
+            "label": "Modo de entrega",
+            "value": "Fase de muestra más adquisición por lotes"
+          }
+        ]
+      },
+      "firstSection": {
+        "badge": "Cobertura",
+        "title": "Cobertura de suministro",
+        "summary": "Estas son categorías frecuentes; la disponibilidad final depende del proyecto."
+      },
+      "firstTable": {
+        "columns": [
+          "Categoría",
+          "Rango de especificación típico",
+          "Caso de uso",
+          "Referencia de plazo de entrega"
+        ],
+        "rows": [
+          [
+            "Caja sin ventilador IPC",
+            "Plataformas Intel o ARM con opciones de E/S múltiples",
+            "Aplicaciones de control industrial y gateway",
+            "4 a 8 semanas"
+          ],
+          [
+            "Panel PC",
+            "Pantallas táctiles industriales de 7 a 21 pulgadas",
+            "HMI e interfaz de línea de producción",
+            "5 a 9 semanas"
+          ],
+          [
+            "Placa base integrada",
+            "Mini-ITX y opciones de operador personalizadas",
+            "Integración de dispositivos y sistemas compactos",
+            "4 a 10 semanas"
+          ],
+          [
+            "Módulos accesorios",
+            "Fuentes de alimentación, soportes, módulos de expansión",
+            "Compatibilidad con la implementación y finalización del sistema",
+            "2 a 6 semanas"
+          ]
+        ]
+      },
+      "processSection": {
+        "badge": "Flujo técnico",
+        "title": "Flujo de entrega técnica",
+        "summary": "Los proyectos técnicos siguen una ruta definida para evitar conflictos de especificación después del pedido."
+      },
+      "processSteps": [
+        {
+          "title": "Perfil de aplicación y definición de referencia",
+          "detail": "El cliente proporciona un escenario de implementación, necesidades de rendimiento, límites de interfaz y condiciones ambientales.",
+          "owner": "Ingeniería de ventas"
+        },
+        {
+          "title": "Coincidencia de candidatos y revisión del ciclo de vida",
+          "detail": "El hardware preseleccionado se revisa para determinar el ajuste de E/S, las necesidades de expansión y la estabilidad del ciclo de vida.",
+          "owner": "Gerente de producto"
+        },
+        {
+          "title": "Validación de muestra y bloqueo de revisión",
+          "detail": "Las unidades piloto se prueban y el código de revisión más la referencia del firmware se congelan antes del pedido por lotes.",
+          "owner": "Ingeniería del cliente + control de calidad"
+        },
+        {
+          "title": "Ejecución y entrega de órdenes",
+          "detail": "Se realiza un seguimiento del progreso de la producción, las especificaciones de embalaje y los archivos de envío hasta el cierre.",
+          "owner": "Operaciones"
+        }
+      ],
+      "thirdSection": {
+        "badge": "Control documental",
+        "title": "Control de archivos técnicos",
+        "summary": "El cierre del proyecto conserva referencias útiles para consistencia por lote y despliegue en campo."
+      },
+      "thirdList": [
+        "Hoja de especificaciones básicas con notas de interfaz, voltaje y expansión.",
+        "Referencia de revisión de hardware y firmware cuando lo proporciona el fabricante.",
+        "Archivo de embalaje y etiquetado alineado con los requisitos logísticos del sitio.",
+        "Registro de problemas para desviaciones aprobadas de la línea base original."
+      ],
+      "fourthSection": {
+        "badge": "Confiabilidad",
+        "title": "Controles de confiabilidad y límites",
+        "summary": "El foco está en ciclo de vida, compatibilidad y límites de soporte documentados."
+      },
+      "fourthRiskItems": [
+        {
+          "title": "No coincide el ciclo de vida",
+          "signal": "La plataforma seleccionada entra en una ventana de riesgo de interrupción demasiado pronto.",
+          "control": "Revisión del extracto del ciclo de vida y planificación alternativa opcional de la lista de materiales."
+        },
+        {
+          "title": "Incompatibilidad de interfaz",
+          "signal": "Los periféricos del sitio requieren conectores o protocolos fuera de la línea base.",
+          "control": "Revisión de la asignación de interfaz antes del lanzamiento de la muestra."
+        },
+        {
+          "title": "Fallo térmico o ambiental",
+          "signal": "El perfil operativo excede el rango de temperatura o humedad probado.",
+          "control": "Declaración temprana del entorno y selección del modelo según el rango nominal."
+        },
+        {
+          "title": "Expectativa de soporte inadecuado",
+          "signal": "El proyecto asume soporte in situ en el extranjero que no está definido contractualmente.",
+          "control": "Matriz de soporte escrita que enumera las responsabilidades remotas y en el sitio."
+        }
+      ],
+      "fourthList": [
+        "El diseño industrial personalizado y la ingeniería de certificación no se incluyen a menos que se analicen por separado.",
+        "La estrategia de stock de repuesto a largo plazo requiere una previsión explícita por parte del comprador.",
+        "La puesta en servicio del sitio fuera de China se coordina solo si los términos del contrato lo incluyen.",
+        "El rendimiento en condiciones extremas no declaradas queda fuera del compromiso de garantía."
+      ]
+    }
+  }
+}

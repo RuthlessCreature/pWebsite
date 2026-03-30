@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --bg: #f6f0e8;
+  --bg-soft: #fffaf5;
+  --panel: rgba(255, 251, 247, 0.84);
+  --panel-strong: rgba(255, 255, 255, 0.92);
+  --line: rgba(63, 75, 92, 0.12);
+  --line-strong: rgba(63, 75, 92, 0.22);
+  --text: #152131;
+  --muted: #5f6977;
+  --navy: #10243d;
+  --brand: #8b3a2b;
+  --brand-deep: #5f2118;
+  --gold: #bf8a4a;
+  --shadow-soft: 0 20px 50px rgba(19, 30, 45, 0.08);
+  --shadow-card: 0 26px 70px rgba(20, 31, 46, 0.1);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -12,13 +29,194 @@ body {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: #f8fafc;
-  color: #1e293b;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.6;
+  min-height: 100vh;
+  background:
+    linear-gradient(180deg, rgba(255, 251, 246, 0.96) 0%, rgba(246, 240, 232, 0.98) 56%, #efe5d7 100%);
+  color: var(--text);
+  font-family:
+    var(--font-body),
+    "Noto Sans CJK SC",
+    "PingFang SC",
+    "Microsoft YaHei",
+    "Hiragino Sans GB",
+    "Yu Gothic",
+    sans-serif;
+  line-height: 1.68;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-display {
+  font-family:
+    var(--font-display),
+    "Noto Serif CJK SC",
+    "Songti SC",
+    "Hiragino Mincho ProN",
+    "Yu Mincho",
+    serif;
+  letter-spacing: -0.03em;
+}
+
+html[lang="zh-TW"] body {
+  font-family:
+    var(--font-body),
+    "Noto Sans CJK TC",
+    "PingFang TC",
+    "Microsoft JhengHei",
+    sans-serif;
+}
+
+html[lang="zh-TW"] h1,
+html[lang="zh-TW"] h2,
+html[lang="zh-TW"] h3,
+html[lang="zh-TW"] h4,
+html[lang="zh-TW"] .font-display {
+  font-family:
+    var(--font-display),
+    "Noto Serif CJK TC",
+    "Songti TC",
+    "PMingLiU",
+    serif;
+}
+
+html[lang="ja"] body {
+  font-family:
+    var(--font-body),
+    "Noto Sans JP",
+    "Hiragino Sans",
+    "Yu Gothic",
+    sans-serif;
+}
+
+html[lang="ja"] h1,
+html[lang="ja"] h2,
+html[lang="ja"] h3,
+html[lang="ja"] h4,
+html[lang="ja"] .font-display {
+  font-family:
+    var(--font-display),
+    "Noto Serif JP",
+    "Hiragino Mincho ProN",
+    "Yu Mincho",
+    serif;
 }
 
 a {
   text-decoration: none;
+  transition:
+    color 140ms ease,
+    opacity 140ms ease,
+    transform 140ms ease;
+}
+
+a:hover {
+  opacity: 0.92;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+::selection {
+  background: rgba(139, 58, 43, 0.16);
+  color: var(--text);
+}
+
+ul[class~="list-disc"] {
+  list-style: none;
+  padding-left: 0 !important;
+  display: grid;
+  gap: 0.95rem;
+}
+
+ul[class~="list-disc"] li {
+  padding: 1rem 1.15rem;
+  border-radius: 1.1rem;
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(248, 241, 233, 0.86));
+  box-shadow: var(--shadow-soft);
+}
+
+@layer components {
+  .site-shell {
+    @apply mx-auto max-w-site px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-shell {
+    @apply relative py-16 sm:py-20;
+  }
+
+  .section-shell::before {
+    content: "";
+    position: absolute;
+    inset: 1.25rem 0;
+    border-radius: 2rem;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.64), rgba(255, 255, 255, 0.22));
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow-soft);
+    pointer-events: none;
+  }
+
+  .section-shell > .site-shell {
+    @apply relative z-10;
+  }
+
+  .glass-panel {
+    background: linear-gradient(180deg, rgba(255, 252, 248, 0.94), rgba(255, 249, 244, 0.82));
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow-card);
+    backdrop-filter: blur(18px);
+  }
+
+  .soft-panel {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(249, 244, 237, 0.92));
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .section-label {
+    @apply inline-flex items-center gap-2 rounded-full px-4 py-2 text-[0.7rem] font-semibold uppercase tracking-[0.3em];
+    background: rgba(16, 36, 61, 0.08);
+    color: var(--navy);
+  }
+
+  .brand-link {
+    color: var(--brand);
+  }
+
+  .brand-link:hover {
+    color: var(--brand-deep);
+  }
+
+  .brand-button {
+    @apply inline-flex items-center justify-center rounded-full px-5 py-3 text-sm font-semibold;
+    background: linear-gradient(135deg, var(--brand) 0%, #a64c36 100%);
+    color: white;
+    box-shadow: 0 16px 38px rgba(139, 58, 43, 0.22);
+  }
+
+  .brand-button:hover {
+    transform: translateY(-1px);
+  }
+
+  .secondary-button {
+    @apply inline-flex items-center justify-center rounded-full px-5 py-3 text-sm font-semibold;
+    background: rgba(255, 251, 247, 0.78);
+    color: var(--navy);
+    border: 1px solid rgba(16, 36, 61, 0.16);
+    box-shadow: 0 12px 32px rgba(16, 36, 61, 0.08);
+  }
+
+  .secondary-button:hover {
+    transform: translateY(-1px);
+    border-color: rgba(16, 36, 61, 0.28);
+  }
 }
