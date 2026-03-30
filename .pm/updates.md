@@ -22,3 +22,6 @@
 - Added `.env.example`, refreshed `README.md`, corrected the SEO SOP in UTF-8 Chinese, and updated the Google launch playbook so webmaster verification and sitemap submission are easier during deployment
 - Consolidated the SEO deployment guidance into a single `SEO_SOP.md` so launch checks, webmaster verification, keyword mapping, and backlink steps now live in one operational document
 - Added a checkbox-style launch checklist to `SEO_SOP.md` so the SEO rollout can be executed as a step-by-step runbook during deployment and the first 30 days
+- Rewrote `DEPLOYMENT.md` into a practical Ubuntu self-host guide with exact commands for `git clone` or `git pull`, `npm install`, `npm run build`, PM2 process management, Nginx reverse proxy setup, and HTTPS via Certbot
+- Added `deploy.sh` as a one-command Ubuntu deployment helper that can deploy from the current repo, or clone/pull a target repo path, then build, manage PM2, and optionally configure Nginx plus Certbot
+- Added `redeploy.sh` for the exact SSH workflow of entering the repo, pulling latest code, rebuilding, killing the previous process, and starting the new version again, while ignoring runtime PID and log files under `.runtime/`

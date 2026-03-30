@@ -102,3 +102,5 @@ middleware.ts
 - Deployment runbook: `DEPLOYMENT.md`
 - Ongoing content/process maintenance: `MAINTENANCE.md`
 - SEO launch, checklist, and webmaster setup: `SEO_SOP.md`
+- One-command self-host script: `deploy.sh`
+- In-place pull and restart script: `redeploy.sh`

@@ -61,7 +61,7 @@ requirements:
     priority: high
     summary: Add locale-prefixed pages, IP or region-aware detection, and a manual language selector for Simplified Chinese, Traditional Chinese, English, Japanese, Russian, Spanish, and Portuguese.
 progress:
-  summary: Locale-prefixed routing, middleware-based language detection, cookie override switching, localized SEO metadata, translated shared navigation, and multilingual page content are now in place across zh-cn, zh-tw, en, ja, ru, es, and pt. Locale content now lives in JSON dictionaries, Spanish and Portuguese copy has been manually polished, and crawl-facing SEO now includes structured data, breadcrumb links, manifest output, richer robots directives, sitemap hreflang alternates, route-level keyword targeting, dynamic social share images, a lower-noise robots.txt policy for non-page API routes, and one consolidated SEO launch SOP covering verification, sitemap submission, keyword targeting, backlink execution, and a launch-ready checkbox checklist.
+  summary: Locale-prefixed routing, middleware-based language detection, cookie override switching, localized SEO metadata, translated shared navigation, and multilingual page content are now in place across zh-cn, zh-tw, en, ja, ru, es, and pt. Locale content now lives in JSON dictionaries, Spanish and Portuguese copy has been manually polished, and crawl-facing SEO now includes structured data, breadcrumb links, manifest output, richer robots directives, sitemap hreflang alternates, route-level keyword targeting, dynamic social share images, a lower-noise robots.txt policy for non-page API routes, one consolidated SEO launch SOP with a checkbox checklist, a practical Ubuntu self-host deployment runbook, a one-command `deploy.sh` helper for first deployment, and an in-place `redeploy.sh` helper for pull-build-restart updates on the server.
   counts:
     planned: 4
     doing: 0
@@ -70,6 +70,7 @@ progress:
 blockers: []
 next_actions:
   - Use the locale JSON dictionaries as the source of truth for future translation or copyediting work
+  - Use `deploy.sh` for first deployment and `redeploy.sh` for future in-place pull/build/restart updates on the Ubuntu server
   - Submit the refreshed sitemap and verification tokens in Google Search Console, Bing Webmaster Tools, and any region-specific webmaster tools you plan to use after production deployment
   - Add real search-engine verification tokens in production env vars so the generated metadata can expose them automatically
   - Follow `SEO_SOP.md` as the single operating checklist for launch-day SEO, indexing requests, first-month backlink execution, and weekly SEO review
